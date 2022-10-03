@@ -177,9 +177,9 @@
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
                                 								
-                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/tmp/hls_cordic"/>
-                                								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/hls_cordic"/>
                                 							
                             </option>
                             							
@@ -365,9 +365,9 @@
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
                                 								
-                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/tmp/hls_cordic"/>
-                                								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/hls_cordic"/>
                                 							
                             </option>
                             							

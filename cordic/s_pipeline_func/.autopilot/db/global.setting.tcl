@@ -44,8 +44,8 @@ set SCTraceOption all
 set TargetInfo xc7z010:-clg400:-1
 set SourceFiles {sc {} c ../../src/cordic.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile /home/pengxuanyao/workspace/cordic/cordic/s_pipeline_func/s_pipeline_func.directive
-set TBFiles {verilog {../../src/mysin.dat ../../src/mycos.dat ../../src/myalpha.dat ../../src/cordic_tb.cpp} bc {../../src/mysin.dat ../../src/mycos.dat ../../src/myalpha.dat ../../src/cordic_tb.cpp} sc {../../src/mysin.dat ../../src/mycos.dat ../../src/myalpha.dat ../../src/cordic_tb.cpp} vhdl {../../src/mysin.dat ../../src/mycos.dat ../../src/myalpha.dat ../../src/cordic_tb.cpp} c {} cas {../../src/mysin.dat ../../src/mycos.dat ../../src/myalpha.dat ../../src/cordic_tb.cpp}}
+set DirectiveFile /home/pengxuanyao/workspace/hls_cordic/cordic/s_pipeline_func/s_pipeline_func.directive
+set TBFiles {verilog {../../src/cordic_tb.cpp ../../src/myalpha.dat ../../src/mycos.dat ../../src/mysin.dat} bc {../../src/cordic_tb.cpp ../../src/myalpha.dat ../../src/mycos.dat ../../src/mysin.dat} sc {../../src/cordic_tb.cpp ../../src/myalpha.dat ../../src/mycos.dat ../../src/mysin.dat} vhdl {../../src/cordic_tb.cpp ../../src/myalpha.dat ../../src/mycos.dat ../../src/mysin.dat} c {} cas {../../src/cordic_tb.cpp ../../src/myalpha.dat ../../src/mycos.dat ../../src/mysin.dat}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

@@ -64,7 +64,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>3090694088</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -97,7 +97,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>113</coreId>
+						<coreId>68</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -120,7 +120,7 @@
 						<id>12</id>
 						<name>full_alpha_read</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>124</lineNumber>
 						<contextFuncName>cordic</contextFuncName>
 						<contextNormFuncName>cordic</contextNormFuncName>
@@ -128,7 +128,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -174,7 +174,7 @@
 						<id>13</id>
 						<name>icmp_ln1494</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1494</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_gt_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -182,7 +182,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -228,7 +228,7 @@
 						<id>14</id>
 						<name>alpha_V</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -236,7 +236,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -282,7 +282,7 @@
 						<id>15</id>
 						<name>icmp_ln1495</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1495</lineNumber>
 						<contextFuncName>operator&amp;lt;&amp;lt;19, 5, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_lt_19_5_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -290,7 +290,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -310,7 +310,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>177</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -336,7 +336,7 @@
 						<id>16</id>
 						<name>alpha_V_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;19, 5, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_19_5_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -344,7 +344,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -390,7 +390,7 @@
 						<id>17</id>
 						<name>select_ln24</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>pre_cordic</contextFuncName>
 						<contextNormFuncName>pre_cordic</contextNormFuncName>
@@ -398,7 +398,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -445,7 +445,7 @@
 						<id>18</id>
 						<name>alpha_V_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1494</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_gt_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -453,7 +453,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -500,7 +500,7 @@
 						<id>19</id>
 						<name>select_ln1494_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1494</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_gt_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -508,7 +508,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -555,7 +555,7 @@
 						<id>20</id>
 						<name>or_ln1494</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1494</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_gt_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -563,7 +563,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -583,7 +583,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>305</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -609,7 +609,7 @@
 						<id>21</id>
 						<name>flag_V</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1494</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_gt_18_4_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -617,7 +617,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -664,7 +664,7 @@
 						<id>22</id>
 						<name>tmp</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -672,7 +672,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -719,7 +719,7 @@
 						<id>23</id>
 						<name>tmp_1</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>cordic_calculate</contextFuncName>
 						<contextNormFuncName>cordic_calculate</contextNormFuncName>
@@ -727,7 +727,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -774,7 +774,7 @@
 						<id>24</id>
 						<name>select_ln68</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>cordic_calculate</contextFuncName>
 						<contextNormFuncName>cordic_calculate</contextNormFuncName>
@@ -782,7 +782,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -829,7 +829,7 @@
 						<id>25</id>
 						<name>add_ln68</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>cordic_calculate</contextFuncName>
 						<contextNormFuncName>cordic_calculate</contextNormFuncName>
@@ -837,7 +837,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -883,7 +883,7 @@
 						<id>26</id>
 						<name>tmp_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -891,7 +891,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -911,7 +911,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>401</coreId>
+						<coreId>433</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -938,7 +938,7 @@
 						<id>27</id>
 						<name>select_ln703</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -946,7 +946,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -993,7 +993,7 @@
 						<id>28</id>
 						<name>select_ln703_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1001,7 +1001,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1048,7 +1048,7 @@
 						<id>29</id>
 						<name>select_ln703_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1056,7 +1056,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1103,7 +1103,7 @@
 						<id>30</id>
 						<name>select_ln703_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1111,7 +1111,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1158,7 +1158,7 @@
 						<id>31</id>
 						<name>select_ln1333</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -1166,7 +1166,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1213,7 +1213,7 @@
 						<id>32</id>
 						<name>zext_ln1496</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1221,7 +1221,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1241,7 +1241,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -1266,7 +1266,7 @@
 						<id>33</id>
 						<name>select_ln1496</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1274,7 +1274,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1321,7 +1321,7 @@
 						<id>34</id>
 						<name>sext_ln1496</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1329,7 +1329,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1349,7 +1349,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>833</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1374,7 +1374,7 @@
 						<id>35</id>
 						<name>tmp_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1382,7 +1382,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1402,7 +1402,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>3090581424</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1429,7 +1429,7 @@
 						<id>36</id>
 						<name>select_ln1496_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1437,7 +1437,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1484,7 +1484,7 @@
 						<id>37</id>
 						<name>add_ln1496</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1492,7 +1492,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1538,7 +1538,7 @@
 						<id>38</id>
 						<name>add_ln1496_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1546,7 +1546,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1592,7 +1592,7 @@
 						<id>39</id>
 						<name>tmp_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1600,7 +1600,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1620,7 +1620,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2147483647</coreId>
+						<coreId>47</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1647,7 +1647,7 @@
 						<id>40</id>
 						<name>trunc_ln2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -1655,7 +1655,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1675,7 +1675,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>61</coreId>
+						<coreId>3090698264</coreId>
 					</Obj>
 					<bitwidth>13</bitwidth>
 				</Value>
@@ -1703,7 +1703,7 @@
 						<id>41</id>
 						<name>sext_ln1333</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -1711,7 +1711,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1731,7 +1731,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493343264</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -1756,7 +1756,7 @@
 						<id>42</id>
 						<name>lshr_ln1333_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -1764,7 +1764,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1784,7 +1784,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>539122993</coreId>
+						<coreId>753</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -1812,7 +1812,7 @@
 						<id>43</id>
 						<name>zext_ln1333</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -1820,7 +1820,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1840,7 +1840,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>7697</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1865,7 +1865,7 @@
 						<id>44</id>
 						<name>sub_ln703_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1873,7 +1873,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1919,7 +1919,7 @@
 						<id>45</id>
 						<name>add_ln703</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1927,7 +1927,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1973,7 +1973,7 @@
 						<id>46</id>
 						<name>add_ln703_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -1981,7 +1981,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2027,7 +2027,7 @@
 						<id>47</id>
 						<name>sub_ln703_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2035,7 +2035,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2081,7 +2081,7 @@
 						<id>48</id>
 						<name>select_ln1496_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2089,7 +2089,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2136,7 +2136,7 @@
 						<id>49</id>
 						<name>zext_ln1496_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2144,7 +2144,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2189,7 +2189,7 @@
 						<id>50</id>
 						<name>select_ln1496_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2197,7 +2197,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2244,7 +2244,7 @@
 						<id>51</id>
 						<name>tmp_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2252,7 +2252,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2272,7 +2272,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>9473</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2299,7 +2299,7 @@
 						<id>52</id>
 						<name>select_ln1496_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2307,7 +2307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2354,7 +2354,7 @@
 						<id>53</id>
 						<name>add_ln1496_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2362,7 +2362,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2408,7 +2408,7 @@
 						<id>54</id>
 						<name>add_ln1496_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2416,7 +2416,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2462,7 +2462,7 @@
 						<id>55</id>
 						<name>tmp_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2470,7 +2470,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2490,7 +2490,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493225968</coreId>
+						<coreId>8</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2517,7 +2517,7 @@
 						<id>56</id>
 						<name>trunc_ln1333_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -2525,7 +2525,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2545,7 +2545,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493223856</coreId>
+						<coreId>3090688064</coreId>
 					</Obj>
 					<bitwidth>13</bitwidth>
 				</Value>
@@ -2573,7 +2573,7 @@
 						<id>57</id>
 						<name>sext_ln1333_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -2581,7 +2581,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2601,7 +2601,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -2626,7 +2626,7 @@
 						<id>58</id>
 						<name>tmp_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -2634,7 +2634,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2654,7 +2654,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493226288</coreId>
+						<coreId>3090720921</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -2682,7 +2682,7 @@
 						<id>59</id>
 						<name>zext_ln1333_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -2690,7 +2690,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2710,7 +2710,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -2735,7 +2735,7 @@
 						<id>60</id>
 						<name>sub_ln703_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2743,7 +2743,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2789,7 +2789,7 @@
 						<id>61</id>
 						<name>add_ln703_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2797,7 +2797,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2843,7 +2843,7 @@
 						<id>62</id>
 						<name>add_ln703_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2851,7 +2851,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2897,7 +2897,7 @@
 						<id>63</id>
 						<name>sub_ln703_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2905,7 +2905,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2951,7 +2951,7 @@
 						<id>64</id>
 						<name>select_ln1496_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -2959,7 +2959,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3006,7 +3006,7 @@
 						<id>65</id>
 						<name>select_ln1496_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3014,7 +3014,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3061,7 +3061,7 @@
 						<id>66</id>
 						<name>tmp_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3069,7 +3069,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3116,7 +3116,7 @@
 						<id>67</id>
 						<name>select_ln1496_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3124,7 +3124,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3171,7 +3171,7 @@
 						<id>68</id>
 						<name>add_ln1496_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3179,7 +3179,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3225,7 +3225,7 @@
 						<id>69</id>
 						<name>add_ln1496_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3233,7 +3233,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3279,7 +3279,7 @@
 						<id>70</id>
 						<name>tmp_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3287,7 +3287,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3307,7 +3307,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1919902523</coreId>
+						<coreId>1702043749</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3334,7 +3334,7 @@
 						<id>71</id>
 						<name>trunc_ln1333_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -3342,7 +3342,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3362,7 +3362,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1965053264</coreId>
+						<coreId>1702126956</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -3390,7 +3390,7 @@
 						<id>72</id>
 						<name>sext_ln1333_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -3398,7 +3398,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3418,7 +3418,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>574449505</coreId>
+						<coreId>1734439795</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -3443,7 +3443,7 @@
 						<id>73</id>
 						<name>trunc_ln1333_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -3451,7 +3451,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3471,7 +3471,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1394752889</coreId>
+						<coreId>3090710281</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -3499,7 +3499,7 @@
 						<id>74</id>
 						<name>sext_ln1333_3</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -3507,7 +3507,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3527,7 +3527,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3492551800</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -3552,7 +3552,7 @@
 						<id>75</id>
 						<name>sub_ln703_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3560,7 +3560,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3606,7 +3606,7 @@
 						<id>76</id>
 						<name>add_ln703_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3614,7 +3614,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3660,7 +3660,7 @@
 						<id>77</id>
 						<name>add_ln703_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3668,7 +3668,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3714,7 +3714,7 @@
 						<id>78</id>
 						<name>sub_ln703_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3722,7 +3722,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3768,7 +3768,7 @@
 						<id>79</id>
 						<name>select_ln1496_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3776,7 +3776,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3823,7 +3823,7 @@
 						<id>80</id>
 						<name>select_ln1496_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3831,7 +3831,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3878,7 +3878,7 @@
 						<id>81</id>
 						<name>tmp_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3886,7 +3886,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3906,7 +3906,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>3690987664</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3933,7 +3933,7 @@
 						<id>82</id>
 						<name>select_ln1496_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3941,7 +3941,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3988,7 +3988,7 @@
 						<id>83</id>
 						<name>add_ln1496_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -3996,7 +3996,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4042,7 +4042,7 @@
 						<id>84</id>
 						<name>add_ln1496_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4050,7 +4050,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4096,7 +4096,7 @@
 						<id>85</id>
 						<name>tmp_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4104,7 +4104,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4124,7 +4124,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4151,7 +4151,7 @@
 						<id>86</id>
 						<name>trunc_ln1333_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -4159,7 +4159,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4207,7 +4207,7 @@
 						<id>87</id>
 						<name>sext_ln1333_4</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -4215,7 +4215,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4235,7 +4235,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>10801</coreId>
+						<coreId>3089474856</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -4260,7 +4260,7 @@
 						<id>88</id>
 						<name>trunc_ln1333_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -4268,7 +4268,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4288,7 +4288,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>16</coreId>
+						<coreId>3090596536</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -4316,7 +4316,7 @@
 						<id>89</id>
 						<name>sext_ln1333_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -4324,7 +4324,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4369,7 +4369,7 @@
 						<id>90</id>
 						<name>sub_ln703_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4377,7 +4377,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4423,7 +4423,7 @@
 						<id>91</id>
 						<name>add_ln703_5</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4431,7 +4431,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4477,7 +4477,7 @@
 						<id>92</id>
 						<name>add_ln703_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4485,7 +4485,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4531,7 +4531,7 @@
 						<id>93</id>
 						<name>sub_ln703_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4539,7 +4539,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4585,7 +4585,7 @@
 						<id>94</id>
 						<name>select_ln1496_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4593,7 +4593,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4640,7 +4640,7 @@
 						<id>95</id>
 						<name>select_ln1496_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4648,7 +4648,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4695,7 +4695,7 @@
 						<id>96</id>
 						<name>tmp_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4703,7 +4703,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4723,7 +4723,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4750,7 +4750,7 @@
 						<id>97</id>
 						<name>select_ln1496_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4758,7 +4758,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4805,7 +4805,7 @@
 						<id>98</id>
 						<name>add_ln1496_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4813,7 +4813,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4859,7 +4859,7 @@
 						<id>99</id>
 						<name>add_ln1496_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4867,7 +4867,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4913,7 +4913,7 @@
 						<id>100</id>
 						<name>tmp_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -4921,7 +4921,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4941,7 +4941,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>284</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4968,7 +4968,7 @@
 						<id>101</id>
 						<name>trunc_ln1333_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -4976,7 +4976,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4996,7 +4996,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1531</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -5024,7 +5024,7 @@
 						<id>102</id>
 						<name>sext_ln1333_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5032,7 +5032,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5052,7 +5052,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1867</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -5077,7 +5077,7 @@
 						<id>103</id>
 						<name>trunc_ln1333_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5085,7 +5085,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5105,7 +5105,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1935</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -5133,7 +5133,7 @@
 						<id>104</id>
 						<name>sext_ln1333_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5141,7 +5141,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5161,7 +5161,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>694</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -5186,7 +5186,7 @@
 						<id>105</id>
 						<name>sub_ln703_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5194,7 +5194,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5240,7 +5240,7 @@
 						<id>106</id>
 						<name>add_ln703_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5248,7 +5248,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5294,7 +5294,7 @@
 						<id>107</id>
 						<name>add_ln703_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5302,7 +5302,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5348,7 +5348,7 @@
 						<id>108</id>
 						<name>sub_ln703_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5356,7 +5356,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5402,7 +5402,7 @@
 						<id>109</id>
 						<name>select_ln1496_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5410,7 +5410,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5457,7 +5457,7 @@
 						<id>110</id>
 						<name>select_ln1496_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5465,7 +5465,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5512,7 +5512,7 @@
 						<id>111</id>
 						<name>tmp_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5520,7 +5520,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5567,7 +5567,7 @@
 						<id>112</id>
 						<name>select_ln1496_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5575,7 +5575,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5622,7 +5622,7 @@
 						<id>113</id>
 						<name>add_ln1496_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5630,7 +5630,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5676,7 +5676,7 @@
 						<id>114</id>
 						<name>add_ln1496_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5684,7 +5684,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5730,7 +5730,7 @@
 						<id>115</id>
 						<name>tmp_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -5738,7 +5738,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5758,7 +5758,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5785,7 +5785,7 @@
 						<id>116</id>
 						<name>trunc_ln1333_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5793,7 +5793,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5813,7 +5813,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5841,7 +5841,7 @@
 						<id>117</id>
 						<name>sext_ln1333_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5849,7 +5849,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5869,7 +5869,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -5894,7 +5894,7 @@
 						<id>118</id>
 						<name>trunc_ln1333_s</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5902,7 +5902,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5922,7 +5922,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5950,7 +5950,7 @@
 						<id>119</id>
 						<name>sext_ln1333_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -5958,7 +5958,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5978,7 +5978,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -6003,7 +6003,7 @@
 						<id>120</id>
 						<name>sub_ln703_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6011,7 +6011,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6057,7 +6057,7 @@
 						<id>121</id>
 						<name>add_ln703_7</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6065,7 +6065,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6111,7 +6111,7 @@
 						<id>122</id>
 						<name>add_ln703_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6119,7 +6119,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6165,7 +6165,7 @@
 						<id>123</id>
 						<name>sub_ln703_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6173,7 +6173,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6219,7 +6219,7 @@
 						<id>124</id>
 						<name>select_ln1496_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6227,7 +6227,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6274,7 +6274,7 @@
 						<id>125</id>
 						<name>select_ln1496_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6282,7 +6282,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6329,7 +6329,7 @@
 						<id>126</id>
 						<name>tmp_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6337,7 +6337,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6384,7 +6384,7 @@
 						<id>127</id>
 						<name>select_ln1496_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6392,7 +6392,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6439,7 +6439,7 @@
 						<id>128</id>
 						<name>add_ln1496_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6447,7 +6447,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6493,7 +6493,7 @@
 						<id>129</id>
 						<name>add_ln1496_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6501,7 +6501,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6547,7 +6547,7 @@
 						<id>130</id>
 						<name>tmp_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6555,7 +6555,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6575,7 +6575,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>888</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -6602,7 +6602,7 @@
 						<id>131</id>
 						<name>trunc_ln1333_2</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -6610,7 +6610,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6630,7 +6630,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>933</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -6658,7 +6658,7 @@
 						<id>132</id>
 						<name>sext_ln1333_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -6666,7 +6666,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6686,7 +6686,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>389</coreId>
+						<coreId>880</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -6711,7 +6711,7 @@
 						<id>133</id>
 						<name>trunc_ln1333_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -6719,7 +6719,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6739,7 +6739,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>735</coreId>
+						<coreId>1067</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -6767,7 +6767,7 @@
 						<id>134</id>
 						<name>sext_ln1333_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -6775,7 +6775,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6795,7 +6795,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>525</coreId>
+						<coreId>1998</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -6820,7 +6820,7 @@
 						<id>135</id>
 						<name>sub_ln703_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6828,7 +6828,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6874,7 +6874,7 @@
 						<id>136</id>
 						<name>add_ln703_8</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6882,7 +6882,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6928,7 +6928,7 @@
 						<id>137</id>
 						<name>add_ln703_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6936,7 +6936,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6982,7 +6982,7 @@
 						<id>138</id>
 						<name>sub_ln703_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6990,7 +6990,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7036,7 +7036,7 @@
 						<id>139</id>
 						<name>select_ln1496_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7044,7 +7044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7091,7 +7091,7 @@
 						<id>140</id>
 						<name>select_ln1496_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7099,7 +7099,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7146,7 +7146,7 @@
 						<id>141</id>
 						<name>tmp_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7154,7 +7154,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7174,7 +7174,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>28263</coreId>
+						<coreId>110</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -7201,7 +7201,7 @@
 						<id>142</id>
 						<name>select_ln1496_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7209,7 +7209,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7256,7 +7256,7 @@
 						<id>143</id>
 						<name>add_ln1496_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7264,7 +7264,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7310,7 +7310,7 @@
 						<id>144</id>
 						<name>add_ln1496_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7318,7 +7318,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7364,7 +7364,7 @@
 						<id>145</id>
 						<name>tmp_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7372,7 +7372,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7392,7 +7392,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -7419,7 +7419,7 @@
 						<id>146</id>
 						<name>trunc_ln1333_11</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -7427,7 +7427,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7475,7 +7475,7 @@
 						<id>147</id>
 						<name>sext_ln1333_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -7483,7 +7483,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7503,7 +7503,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -7528,7 +7528,7 @@
 						<id>148</id>
 						<name>trunc_ln1333_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -7536,7 +7536,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7584,7 +7584,7 @@
 						<id>149</id>
 						<name>sext_ln1333_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -7592,7 +7592,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7637,7 +7637,7 @@
 						<id>150</id>
 						<name>sub_ln703_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7645,7 +7645,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7691,7 +7691,7 @@
 						<id>151</id>
 						<name>add_ln703_9</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7699,7 +7699,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7745,7 +7745,7 @@
 						<id>152</id>
 						<name>add_ln703_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7753,7 +7753,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7799,7 +7799,7 @@
 						<id>153</id>
 						<name>sub_ln703_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7807,7 +7807,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7853,7 +7853,7 @@
 						<id>154</id>
 						<name>select_ln1496_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7861,7 +7861,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7908,7 +7908,7 @@
 						<id>155</id>
 						<name>select_ln1496_24</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7916,7 +7916,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7963,7 +7963,7 @@
 						<id>156</id>
 						<name>tmp_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7971,7 +7971,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8018,7 +8018,7 @@
 						<id>157</id>
 						<name>select_ln1496_25</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8026,7 +8026,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8073,7 +8073,7 @@
 						<id>158</id>
 						<name>add_ln1496_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8081,7 +8081,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8127,7 +8127,7 @@
 						<id>159</id>
 						<name>add_ln1496_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8135,7 +8135,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8181,7 +8181,7 @@
 						<id>160</id>
 						<name>tmp_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8189,7 +8189,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8209,7 +8209,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>270</coreId>
+						<coreId>8433</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -8236,7 +8236,7 @@
 						<id>161</id>
 						<name>trunc_ln1333_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -8244,7 +8244,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8264,7 +8264,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>733</coreId>
+						<coreId>484</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -8292,7 +8292,7 @@
 						<id>162</id>
 						<name>sext_ln1333_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -8300,7 +8300,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8320,7 +8320,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1650</coreId>
+						<coreId>1141</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -8345,7 +8345,7 @@
 						<id>163</id>
 						<name>trunc_ln1333_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -8353,7 +8353,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8373,7 +8373,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1170</coreId>
+						<coreId>2032</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -8401,7 +8401,7 @@
 						<id>164</id>
 						<name>sext_ln1333_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -8409,7 +8409,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8429,7 +8429,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1486</coreId>
+						<coreId>1298</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -8454,7 +8454,7 @@
 						<id>165</id>
 						<name>sub_ln703_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8462,7 +8462,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8508,7 +8508,7 @@
 						<id>166</id>
 						<name>add_ln703_10</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8516,7 +8516,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8562,7 +8562,7 @@
 						<id>167</id>
 						<name>add_ln703_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8570,7 +8570,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8616,7 +8616,7 @@
 						<id>168</id>
 						<name>sub_ln703_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8624,7 +8624,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8670,7 +8670,7 @@
 						<id>169</id>
 						<name>select_ln1496_26</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8678,7 +8678,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8725,7 +8725,7 @@
 						<id>170</id>
 						<name>select_ln1496_27</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8733,7 +8733,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8780,7 +8780,7 @@
 						<id>171</id>
 						<name>tmp_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8788,7 +8788,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8808,7 +8808,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1527</coreId>
+						<coreId>1636</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -8835,7 +8835,7 @@
 						<id>172</id>
 						<name>select_ln1496_28</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8843,7 +8843,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8890,7 +8890,7 @@
 						<id>173</id>
 						<name>add_ln1496_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8898,7 +8898,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8944,7 +8944,7 @@
 						<id>174</id>
 						<name>add_ln1496_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8952,7 +8952,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8998,7 +8998,7 @@
 						<id>175</id>
 						<name>tmp_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9006,7 +9006,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9026,7 +9026,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1966</coreId>
+						<coreId>1019</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -9053,7 +9053,7 @@
 						<id>176</id>
 						<name>trunc_ln1333_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9061,7 +9061,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9081,7 +9081,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2006</coreId>
+						<coreId>1050</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -9109,7 +9109,7 @@
 						<id>177</id>
 						<name>sext_ln1333_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9117,7 +9117,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9137,7 +9137,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2034</coreId>
+						<coreId>1076</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -9162,7 +9162,7 @@
 						<id>178</id>
 						<name>trunc_ln1333_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9170,7 +9170,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9190,7 +9190,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1002</coreId>
+						<coreId>1348</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -9218,7 +9218,7 @@
 						<id>179</id>
 						<name>sext_ln1333_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9226,7 +9226,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9246,7 +9246,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1008</coreId>
+						<coreId>506</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -9271,7 +9271,7 @@
 						<id>180</id>
 						<name>sub_ln703_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9279,7 +9279,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9325,7 +9325,7 @@
 						<id>181</id>
 						<name>add_ln703_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9333,7 +9333,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9379,7 +9379,7 @@
 						<id>182</id>
 						<name>add_ln703_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9387,7 +9387,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9433,7 +9433,7 @@
 						<id>183</id>
 						<name>sub_ln703_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9441,7 +9441,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9487,7 +9487,7 @@
 						<id>184</id>
 						<name>select_ln1496_29</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9495,7 +9495,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9542,7 +9542,7 @@
 						<id>185</id>
 						<name>select_ln1496_30</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9550,7 +9550,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9597,7 +9597,7 @@
 						<id>186</id>
 						<name>tmp_24</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9605,7 +9605,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9652,7 +9652,7 @@
 						<id>187</id>
 						<name>select_ln1496_31</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9660,7 +9660,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9707,7 +9707,7 @@
 						<id>188</id>
 						<name>add_ln1496_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9715,7 +9715,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9761,7 +9761,7 @@
 						<id>189</id>
 						<name>add_ln1496_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9769,7 +9769,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9815,7 +9815,7 @@
 						<id>190</id>
 						<name>tmp_25</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9823,7 +9823,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9870,7 +9870,7 @@
 						<id>191</id>
 						<name>trunc_ln1333_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9878,7 +9878,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9926,7 +9926,7 @@
 						<id>192</id>
 						<name>sext_ln1333_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9934,7 +9934,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9979,7 +9979,7 @@
 						<id>193</id>
 						<name>trunc_ln1333_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -9987,7 +9987,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10035,7 +10035,7 @@
 						<id>194</id>
 						<name>sext_ln1333_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -10043,7 +10043,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10088,7 +10088,7 @@
 						<id>195</id>
 						<name>sub_ln703_24</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10096,7 +10096,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10142,7 +10142,7 @@
 						<id>196</id>
 						<name>add_ln703_12</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10150,7 +10150,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10196,7 +10196,7 @@
 						<id>197</id>
 						<name>add_ln703_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10204,7 +10204,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10250,7 +10250,7 @@
 						<id>198</id>
 						<name>sub_ln703_25</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10258,7 +10258,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10304,7 +10304,7 @@
 						<id>199</id>
 						<name>select_ln1496_32</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10312,7 +10312,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10359,7 +10359,7 @@
 						<id>200</id>
 						<name>select_ln1496_33</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10367,7 +10367,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10414,7 +10414,7 @@
 						<id>201</id>
 						<name>tmp_26</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10422,7 +10422,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10469,7 +10469,7 @@
 						<id>202</id>
 						<name>select_ln1496_34</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10477,7 +10477,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10524,7 +10524,7 @@
 						<id>203</id>
 						<name>add_ln1496_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10532,7 +10532,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10578,7 +10578,7 @@
 						<id>204</id>
 						<name>add_ln1496_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10586,7 +10586,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10632,7 +10632,7 @@
 						<id>205</id>
 						<name>tmp_27</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10640,7 +10640,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10687,7 +10687,7 @@
 						<id>206</id>
 						<name>trunc_ln1333_19</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -10695,7 +10695,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10715,7 +10715,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>762</coreId>
 					</Obj>
 					<bitwidth>3</bitwidth>
 				</Value>
@@ -10743,7 +10743,7 @@
 						<id>207</id>
 						<name>sext_ln1333_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -10751,7 +10751,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10796,7 +10796,7 @@
 						<id>208</id>
 						<name>trunc_ln1333_20</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -10804,7 +10804,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10852,7 +10852,7 @@
 						<id>209</id>
 						<name>sext_ln1333_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -10860,7 +10860,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10880,7 +10880,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -10905,7 +10905,7 @@
 						<id>210</id>
 						<name>sub_ln703_26</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10913,7 +10913,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10959,7 +10959,7 @@
 						<id>211</id>
 						<name>add_ln703_13</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10967,7 +10967,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11013,7 +11013,7 @@
 						<id>212</id>
 						<name>add_ln703_24</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11021,7 +11021,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11067,7 +11067,7 @@
 						<id>213</id>
 						<name>sub_ln703_27</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11075,7 +11075,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11121,7 +11121,7 @@
 						<id>214</id>
 						<name>select_ln1496_35</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11129,7 +11129,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11176,7 +11176,7 @@
 						<id>215</id>
 						<name>select_ln1496_36</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11184,7 +11184,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11231,7 +11231,7 @@
 						<id>216</id>
 						<name>tmp_28</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11239,7 +11239,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11259,7 +11259,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>934</coreId>
+						<coreId>4017</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -11286,7 +11286,7 @@
 						<id>217</id>
 						<name>select_ln1496_37</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11294,7 +11294,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11341,7 +11341,7 @@
 						<id>218</id>
 						<name>add_ln1496_24</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11349,7 +11349,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11395,7 +11395,7 @@
 						<id>219</id>
 						<name>add_ln1496_25</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11403,7 +11403,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11449,7 +11449,7 @@
 						<id>220</id>
 						<name>tmp_29</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11457,7 +11457,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11504,7 +11504,7 @@
 						<id>221</id>
 						<name>trunc_ln1333_21</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -11512,7 +11512,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11560,7 +11560,7 @@
 						<id>222</id>
 						<name>sext_ln1333_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -11568,7 +11568,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11588,7 +11588,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -11613,7 +11613,7 @@
 						<id>223</id>
 						<name>trunc_ln1333_22</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -11621,7 +11621,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11641,7 +11641,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>227</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -11669,7 +11669,7 @@
 						<id>224</id>
 						<name>sext_ln1333_23</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1333</lineNumber>
 						<contextFuncName>operator&amp;gt;&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_rs</contextNormFuncName>
@@ -11677,7 +11677,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11697,7 +11697,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1022</coreId>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -11722,7 +11722,7 @@
 						<id>225</id>
 						<name>sub_ln703_28</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11730,7 +11730,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11776,7 +11776,7 @@
 						<id>226</id>
 						<name>add_ln703_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11784,7 +11784,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11830,7 +11830,7 @@
 						<id>227</id>
 						<name>add_ln703_25</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11838,7 +11838,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11884,7 +11884,7 @@
 						<id>228</id>
 						<name>sub_ln703_29</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11892,7 +11892,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11938,7 +11938,7 @@
 						<id>229</id>
 						<name>mysin_V</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11946,7 +11946,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11993,7 +11993,7 @@
 						<id>230</id>
 						<name>mycos_V</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>1496</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12001,7 +12001,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12048,7 +12048,7 @@
 						<id>231</id>
 						<name>sin_out_write_ln110</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>110</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12056,7 +12056,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12076,7 +12076,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>402</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12103,7 +12103,7 @@
 						<id>232</id>
 						<name>_ln99</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12111,7 +12111,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12131,7 +12131,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>579</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12161,7 +12161,7 @@
 						<id>234</id>
 						<name>sub_ln703_1</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12169,7 +12169,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12215,7 +12215,7 @@
 						<id>235</id>
 						<name>cos_out_write_ln107</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>107</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12223,7 +12223,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12243,7 +12243,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>535</coreId>
+						<coreId>130</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12270,7 +12270,7 @@
 						<id>236</id>
 						<name>br_ln108</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12278,7 +12278,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12298,7 +12298,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>739</coreId>
+						<coreId>1126</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12323,7 +12323,7 @@
 						<id>238</id>
 						<name>sub_ln703</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>703</lineNumber>
 						<contextFuncName>operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_assign_17_3_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12331,7 +12331,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12377,7 +12377,7 @@
 						<id>239</id>
 						<name>cos_out_write_ln103</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>103</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12385,7 +12385,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12405,7 +12405,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>433</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12432,7 +12432,7 @@
 						<id>240</id>
 						<name>br_ln104</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>104</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12440,7 +12440,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12460,7 +12460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>637</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12485,7 +12485,7 @@
 						<id>242</id>
 						<name>cos_out_write_ln111</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>111</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12493,7 +12493,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12513,7 +12513,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>953</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12540,7 +12540,7 @@
 						<id>243</id>
 						<name>br_ln112</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>112</lineNumber>
 						<contextFuncName>post_cordic</contextFuncName>
 						<contextNormFuncName>post_cordic</contextNormFuncName>
@@ -12548,7 +12548,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12568,7 +12568,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12593,7 +12593,7 @@
 						<id>245</id>
 						<name>_ln135</name>
 						<fileName>src/cordic.cpp</fileName>
-						<fileDirectory>/home/pengxuanyao/workspace/cordic</fileDirectory>
+						<fileDirectory>/home/pengxuanyao/workspace/hls_cordic</fileDirectory>
 						<lineNumber>135</lineNumber>
 						<contextFuncName>cordic</contextFuncName>
 						<contextNormFuncName>cordic</contextNormFuncName>
@@ -12601,7 +12601,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/pengxuanyao/workspace/cordic</first>
+								<first>/home/pengxuanyao/workspace/hls_cordic</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12621,7 +12621,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -12663,7 +12663,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12691,7 +12691,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12719,7 +12719,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12747,7 +12747,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>516</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12775,7 +12775,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>347</coreId>
+						<coreId>753</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -12803,7 +12803,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>546</coreId>
+						<coreId>443</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -12831,7 +12831,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>745</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -12859,7 +12859,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>907</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -12887,7 +12887,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>36</coreId>
+						<coreId>4228300630</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12915,7 +12915,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>323</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -12943,7 +12943,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>88</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
@@ -12971,7 +12971,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>326</coreId>
+						<coreId>3834512688</coreId>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
@@ -12999,7 +12999,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>556</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -13027,7 +13027,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>718</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -13055,7 +13055,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>880</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
@@ -13083,7 +13083,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>364</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
@@ -13111,7 +13111,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>25</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -13139,7 +13139,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967294</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -13307,7 +13307,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3834512688</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13335,7 +13335,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1463</coreId>
+						<coreId>570</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13363,7 +13363,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1619</coreId>
+						<coreId>873</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13391,7 +13391,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967294</coreId>
+						<coreId>1228</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13419,7 +13419,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1946</coreId>
+						<coreId>1505</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13447,7 +13447,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5913</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13475,7 +13475,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13503,7 +13503,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13531,7 +13531,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13559,7 +13559,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>41</coreId>
+						<coreId>112</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13587,7 +13587,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>866</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13615,7 +13615,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>458</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13643,7 +13643,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>595</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13671,7 +13671,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>455</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13699,7 +13699,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>257</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13727,7 +13727,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>413</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13755,7 +13755,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1819</coreId>
+						<coreId>593</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13783,7 +13783,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>917</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13811,7 +13811,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493644144</coreId>
+						<coreId>3091000192</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -13839,7 +13839,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3493655744</coreId>
+						<coreId>3091011792</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -13867,7 +13867,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>991</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -14091,7 +14091,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -14346,7 +14346,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>49</coreId>
+					<coreId>84</coreId>
 				</Obj>
 				<node_objs>
 					<count>221</count>
@@ -14594,7 +14594,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>687</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>3</count>
@@ -14624,7 +14624,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>939</coreId>
+					<coreId>1326</coreId>
 				</Obj>
 				<node_objs>
 					<count>3</count>
@@ -14654,7 +14654,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>837</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -14683,7 +14683,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>4294967295</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>1</count>

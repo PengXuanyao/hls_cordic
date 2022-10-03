@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/pengxuanyao/workspace/hls_cordic/cordic/s_pipeline_func/./sim/autowrap/testbench/cordic.cpp_pre.cpp.tb.cpp

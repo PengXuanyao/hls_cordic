@@ -18,6 +18,18 @@
                 "value": "cordic"
               }]
           }
+        },
+        {
+          "functionName": "cordic",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cordic"
+              }]
+          }
         }
       ]
     }]}

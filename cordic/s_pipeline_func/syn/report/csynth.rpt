@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'cordic'
 ================================================================
 + General Information: 
-    * Date:           Mon Oct  3 15:59:50 2022
+    * Date:           Mon Oct  3 17:47:37 2022
     * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
     * Project:        cordic
     * Solution:       s_pipeline_func (Vivado IP Flow Target)

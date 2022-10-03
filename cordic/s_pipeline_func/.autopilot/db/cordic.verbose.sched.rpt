@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'cordic'
 ================================================================
-* Date:           Mon Oct  3 15:59:48 2022
+* Date:           Mon Oct  3 17:47:35 2022
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cordic
@@ -366,7 +366,8 @@ Target clock period: 10ns, clock uncertainty: 2.7ns.
  <State 1>: 5.32ns
 The critical path consists of the following:
 	wire read on port 'full_alpha' (src/cordic.cpp:124) [12]  (0 ns)
-	'icmp' operation ('icmp_ln1494') [13]  (2.43 ns)
+	'icmp' operation ('icmp_ln1495') [15]  (2.43 ns)
+	'select' operation ('select_ln24', src/cordic.cpp:24) [17]  (0 ns)
 	'select' operation ('alpha.V') [18]  (0.781 ns)
 	'add' operation ('add_ln68', src/cordic.cpp:68) [25]  (2.11 ns)
 
@@ -404,9 +405,9 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'select' operation ('select_ln703_1') [28]  (0 ns)
 	'select' operation ('select_ln1496') [33]  (0.754 ns)
-	'add' operation ('add_ln703') [45]  (1.94 ns)
+	'sub' operation ('sub_ln703_5') [47]  (1.94 ns)
 	'select' operation ('select_ln1496_3') [50]  (0.805 ns)
-	'sub' operation ('sub_ln703_7') [63]  (2.08 ns)
+	'add' operation ('add_ln703_2') [61]  (2.08 ns)
 	'select' operation ('select_ln1496_6') [65]  (0.805 ns)
 
  <State 9>: 5.76ns
@@ -418,14 +419,14 @@ The critical path consists of the following:
 
  <State 10>: 5.76ns
 The critical path consists of the following:
-	'add' operation ('add_ln703_16') [107]  (2.08 ns)
+	'sub' operation ('sub_ln703_12') [105]  (2.08 ns)
 	'select' operation ('select_ln1496_14') [109]  (0.805 ns)
-	'add' operation ('add_ln703_17') [122]  (2.08 ns)
+	'sub' operation ('sub_ln703_14') [120]  (2.08 ns)
 	'select' operation ('select_ln1496_17') [124]  (0.805 ns)
 
  <State 11>: 5.76ns
 The critical path consists of the following:
-	'add' operation ('add_ln703_18') [137]  (2.08 ns)
+	'sub' operation ('sub_ln703_16') [135]  (2.08 ns)
 	'select' operation ('select_ln1496_20') [139]  (0.805 ns)
 	'sub' operation ('sub_ln703_18') [150]  (2.08 ns)
 	'select' operation ('select_ln1496_23') [154]  (0.805 ns)
@@ -434,7 +435,7 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'sub' operation ('sub_ln703_20') [165]  (2.08 ns)
 	'select' operation ('select_ln1496_26') [169]  (0.805 ns)
-	'sub' operation ('sub_ln703_22') [180]  (2.08 ns)
+	'add' operation ('add_ln703_22') [182]  (2.08 ns)
 	'select' operation ('select_ln1496_29') [184]  (0.805 ns)
 
  <State 13>: 5.98ns

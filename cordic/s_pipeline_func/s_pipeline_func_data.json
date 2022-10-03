@@ -77,6 +77,7 @@
     "FlowTarget": "vivado",
     "DirectiveTcl": [
       "set_directive_pipeline cordic ",
+      "set_directive_top cordic -name cordic",
       "set_directive_top cordic -name cordic"
     ],
     "ProfileOption": "0",
@@ -111,7 +112,7 @@
     "IpMisc": ["impl\/misc\/logo.png"],
     "DesignXml": ".autopilot\/db\/cordic.design.xml",
     "DebugDir": ".debug",
-    "ProtoInst": ["\/home\/pengxuanyao\/workspace\/cordic\/cordic\/s_pipeline_func\/.debug\/cordic.protoinst"]
+    "ProtoInst": ["\/home\/pengxuanyao\/workspace\/hls_cordic\/cordic\/s_pipeline_func\/.debug\/cordic.protoinst"]
   },
   "SubcoreInfo": {
     "HasXpmMemory": false,
@@ -286,7 +287,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2022-10-03 15:59:50 CST",
+    "Time": "2022-10-03 17:47:37 CST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }
