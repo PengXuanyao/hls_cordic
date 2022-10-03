@@ -10,7 +10,7 @@ from math import cos, sin
 import random
 
 N = 629 # 总共的数据个数
-myalpha = [] # 角度
+myalpha = [] # 弧度值
 mysin = [] # sin值
 mycos = [] # cos值
 
