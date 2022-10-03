@@ -341,3 +341,4 @@ collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Test Bench
 // TclEventType: WAVEFORM_UPDATE_COMMANDS
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // HMemoryUtils.trashcanNow. Engine heap size: 1,694 MB. GUI used memory: 75 MB. Current time: 10/3/22, 4:34:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,694 MB. GUI used memory: 67 MB. Current time: 10/3/22, 5:04:35 PM CST

@@ -4,9 +4,9 @@
     <originFiles name="cordic.cpp" path="/home/pengxuanyao/workspace/cordic/src/cordic.cpp"/>
   </source>
   <testbench>
-    <originFiles name="cordic_tb.cpp" path="/home/pengxuanyao/workspace/cordic/src/cordic_tb.cpp"/>
-    <originFiles name="myalpha.dat" path="/home/pengxuanyao/workspace/cordic/src/myalpha.dat"/>
-    <originFiles name="mycos.dat" path="/home/pengxuanyao/workspace/cordic/src/mycos.dat"/>
     <originFiles name="mysin.dat" path="/home/pengxuanyao/workspace/cordic/src/mysin.dat"/>
+    <originFiles name="mycos.dat" path="/home/pengxuanyao/workspace/cordic/src/mycos.dat"/>
+    <originFiles name="myalpha.dat" path="/home/pengxuanyao/workspace/cordic/src/myalpha.dat"/>
+    <originFiles name="cordic_tb.cpp" path="/home/pengxuanyao/workspace/cordic/src/cordic_tb.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>
