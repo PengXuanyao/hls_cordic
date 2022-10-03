@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="cordic.cpp" path="/home/pengxuanyao/workspace/cordic/src/cordic.cpp"/>
+    <originFiles name="cordic.cpp" path="/home/pengxuanyao/workspace/tmp/hls_cordic/src/cordic.cpp"/>
   </source>
   <testbench>
-    <originFiles name="mysin.dat" path="/home/pengxuanyao/workspace/cordic/src/mysin.dat"/>
-    <originFiles name="mycos.dat" path="/home/pengxuanyao/workspace/cordic/src/mycos.dat"/>
-    <originFiles name="myalpha.dat" path="/home/pengxuanyao/workspace/cordic/src/myalpha.dat"/>
-    <originFiles name="cordic_tb.cpp" path="/home/pengxuanyao/workspace/cordic/src/cordic_tb.cpp"/>
+    <originFiles name="mysin.dat" path="/home/pengxuanyao/workspace/tmp/hls_cordic/src/mysin.dat"/>
+    <originFiles name="mycos.dat" path="/home/pengxuanyao/workspace/tmp/hls_cordic/src/mycos.dat"/>
+    <originFiles name="myalpha.dat" path="/home/pengxuanyao/workspace/tmp/hls_cordic/src/myalpha.dat"/>
+    <originFiles name="cordic_tb.cpp" path="/home/pengxuanyao/workspace/tmp/hls_cordic/src/cordic_tb.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

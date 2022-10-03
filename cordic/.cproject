@@ -175,9 +175,9 @@
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
                                 								
-                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/cordic"/>
-                                								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/tmp/hls_cordic"/>
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
                                 							
@@ -199,7 +199,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.reference|.settings|s_default|s_pipeline|s_pipeline_func|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|s_default|s_pipeline|s_pipeline_func|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -363,9 +363,9 @@
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
                                 								
-                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/cordic"/>
-                                								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/pengxuanyao/workspace/tmp/hls_cordic"/>
                                 								
                                 <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
                                 							
@@ -387,7 +387,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.reference|.settings|s_default|s_pipeline|s_pipeline_func|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|s_default|s_pipeline|s_pipeline_func|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

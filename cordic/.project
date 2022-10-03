@@ -29,97 +29,97 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/.apc/.src</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/.apc/.tb</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/.apc/.tb</location>
 		</link>
 		<link>
 			<name>s_default/constraints</name>
 			<type>2</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_default/.tcls</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_default/.tcls</location>
 		</link>
 		<link>
 			<name>s_pipeline/constraints</name>
 			<type>2</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/.tcls</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline/.tcls</location>
 		</link>
 		<link>
 			<name>s_pipeline_func/constraints</name>
 			<type>2</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline_func/.tcls</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline_func/.tcls</location>
 		</link>
 		<link>
 			<name>source/cordic.cpp</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/src/cordic.cpp</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/src/cordic.cpp</location>
 		</link>
 		<link>
 			<name>testbench/cordic_tb.cpp</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/src/cordic_tb.cpp</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/src/cordic_tb.cpp</location>
 		</link>
 		<link>
 			<name>testbench/myalpha.dat</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/src/myalpha.dat</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/src/myalpha.dat</location>
 		</link>
 		<link>
 			<name>testbench/mycos.dat</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/src/mycos.dat</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/src/mycos.dat</location>
 		</link>
 		<link>
 			<name>testbench/mysin.dat</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/src/mysin.dat</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/src/mysin.dat</location>
 		</link>
 		<link>
 			<name>s_default/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_default/s_default.directive</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_default/s_default.directive</location>
 		</link>
 		<link>
 			<name>s_default/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_default/directives.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_default/directives.tcl</location>
 		</link>
 		<link>
 			<name>s_default/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_default/script.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_default/script.tcl</location>
 		</link>
 		<link>
 			<name>s_pipeline/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/s_pipeline.directive</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline/s_pipeline.directive</location>
 		</link>
 		<link>
 			<name>s_pipeline/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/directives.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline/directives.tcl</location>
 		</link>
 		<link>
 			<name>s_pipeline/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/script.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline/script.tcl</location>
 		</link>
 		<link>
 			<name>s_pipeline_func/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline_func/s_pipeline_func.directive</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline_func/s_pipeline_func.directive</location>
 		</link>
 		<link>
 			<name>s_pipeline_func/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline_func/directives.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline_func/directives.tcl</location>
 		</link>
 		<link>
 			<name>s_pipeline_func/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/pengxuanyao/workspace/cordic/cordic/s_pipeline_func/script.tcl</location>
+			<location>/home/pengxuanyao/workspace/tmp/hls_cordic/cordic/s_pipeline_func/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>
