@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  3 16:03:14 2022
+# Process ID: 17544
+# Current directory: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog
+# Command line: wbtcv -mode batch -source /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/xsim.dir/cordic/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/webtalk.log
+# Journal file: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/xsim.dir/cordic/webtalk/xsim_webtalk.tcl -notrace

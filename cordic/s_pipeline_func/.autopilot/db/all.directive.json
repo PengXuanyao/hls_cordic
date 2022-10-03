@@ -1,0 +1,23 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "cordic",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "cordic",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cordic"
+              }]
+          }
+        }
+      ]
+    }]}

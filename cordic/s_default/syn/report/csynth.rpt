@@ -1,0 +1,25 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cordic'
+================================================================
++ General Information: 
+    * Date:           Mon Oct  3 15:21:50 2022
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
+    * Project:        cordic
+    * Solution:       s_default (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |  Modules | Issue|       | Latency | Latency | Iteration|         | Trip |          |      |    |           |          |     |
+    |  & Loops | Type | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT   | URAM|
+    +----------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |+ cordic  |     -|  -1.16|       19|  190.000|         -|       20|     -|        no|     -|   -|  222 (~0%)|  645 (3%)|    -|
+    | o loop   |     -|  -7.30|       16|  160.000|         2|        1|    16|       yes|     -|   -|          -|         -|    -|
+    +----------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+----------+-----+
+

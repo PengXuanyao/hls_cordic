@@ -1,0 +1,81 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z010-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordic cordic 
+INFO: [HLS 200-1510] Running: set_directive_pipeline cordic_calculate/loop 
+INFO: [HLS 200-1510] Running: set_directive_unroll cordic_calculate/loop 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 191.474 MB.
+INFO: [HLS 200-10] Analyzing design file 'src/cordic.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2.98 seconds. CPU system time: 0.2 seconds. Elapsed time: 2.75 seconds; current allocated memory: 192.655 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-186] Unrolling loop 'loop' (src/cordic.cpp:66:5) in function 'cordic_calculate' completely with a factor of 16 (src/cordic.cpp:66:5)
+WARNING: [HLS 214-189] Pipeline directive for loop 'loop' (src/cordic.cpp:66:5) in function 'cordic_calculate' has been removed because the loop is unrolled completely (src/cordic.cpp:66:5)
+INFO: [HLS 214-178] Inlining function 'pre_cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_uint<2>&)' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:125:0)
+INFO: [HLS 214-178] Inlining function 'post_cordic(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<2>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:125:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i16.s_struct.ap_fixed.0s' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:110:17)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i16.s_struct.ap_fixed.0s' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:111:17)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i16.s_struct.ap_fixed.0s' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:107:17)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i16.s_struct.ap_fixed.0s' into 'cordic(ap_fixed<17, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (src/cordic.cpp:103:17)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.44 seconds. CPU system time: 0.15 seconds. Elapsed time: 2.6 seconds; current allocated memory: 194.358 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 194.360 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 204.357 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 219.068 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (src/cordic.cpp:85:1) in function 'cordic_calculate'... converting 40 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (src/cordic.cpp:99:5) in function 'cordic'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 253.426 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 262.535 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordic' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordic_calculate' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 263.498 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 264.457 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordic' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.25 seconds. CPU system time: 0 seconds. Elapsed time: 0.25 seconds; current allocated memory: 264.641 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 264.826 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordic_calculate' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordic_calculate'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.24 seconds. CPU system time: 0 seconds. Elapsed time: 0.25 seconds; current allocated memory: 266.562 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordic' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordic/full_alpha' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordic/sin_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordic/cos_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordic' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordic'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.6 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.61 seconds; current allocated memory: 270.782 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.92 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.94 seconds; current allocated memory: 277.773 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cordic.
+INFO: [VLOG 209-307]==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================

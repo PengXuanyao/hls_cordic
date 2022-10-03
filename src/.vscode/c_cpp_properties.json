@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/tools/Xilinx/Vitis_HLS/2020.2/include",
+                "/tools/Xilinx/Vitis_HLS/2020.2/include/etc",
+                "/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include",
+                "/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"
+            ],
+            "defines": [],
+            "compilerPath": "/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

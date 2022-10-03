@@ -1,0 +1,41 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "cordic",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cordic"
+              }]
+          }
+        },
+        {
+          "functionName": "cordic_calculate",
+          "label": "loop",
+          "functionLabel": "",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "cordic_calculate",
+          "label": "loop",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "cordic",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cordic"
+              }]
+          }
+        }
+      ]
+    }]}

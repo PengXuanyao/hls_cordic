@@ -1,0 +1,10 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="src/cordic.cpp:82:11" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by mysin.V" ID="_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.14.store.194" VarName="mysin"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="src/cordic.cpp:83:11" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by mycos.V" ID="_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.14.store.195" VarName="mycos"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="src/cordic.cpp:134:17" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by mysin.V" ID="_Z10pre_cordic8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EERS2_R7ap_uintILi2EE.exit.load.7" VarName="mysin"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="src/cordic.cpp:134:24" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by mycos.V" ID="_Z10pre_cordic8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EERS2_R7ap_uintILi2EE.exit.load.8" VarName="mycos"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+</VitisHLS:BurstInfo>
+

@@ -1,0 +1,445 @@
+
+
+================================================================
+== Vitis HLS Report for 'cordic_calculate'
+================================================================
+* Date:           Mon Oct  3 15:58:09 2022
+
+* Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
+* Project:        cordic
+* Solution:       s_pipeline (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z010-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.792 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       12|       12|  0.120 us|  0.120 us|   12|   12|     none|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 13
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.79>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%alpha_read = read i17 @_ssdm_op_Read.ap_auto.i17, i17 %alpha"   --->   Operation 14 'read' 'alpha_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %alpha_read, i32 16"   --->   Operation 15 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%tmp_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %alpha_read, i32 16" [src/cordic.cpp:68]   --->   Operation 16 'bitselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%select_ln68 = select i1 %tmp_1, i17 12867, i17 118205" [src/cordic.cpp:68]   --->   Operation 17 'select' 'select_ln68' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (2.10ns) (out node of the LUT)   --->   "%add_ln68 = add i17 %select_ln68, i17 %alpha_read" [src/cordic.cpp:68]   --->   Operation 18 'add' 'add_ln68' <Predicate = true> <Delay = 2.10> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp_2 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %add_ln68, i32 16"   --->   Operation 19 'bitselect' 'tmp_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%tmp_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %add_ln68, i32 16"   --->   Operation 20 'bitselect' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.75ns)   --->   "%select_ln1496 = select i1 %tmp_3, i17 15192, i17 0"   --->   Operation 21 'select' 'select_ln1496' <Predicate = true> <Delay = 0.75> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496 = add i17 %add_ln68, i17 123476"   --->   Operation 22 'add' 'add_ln1496' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_1 : Operation 23 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V = add i17 %add_ln1496, i17 %select_ln1496"   --->   Operation 23 'add' 'zi_V' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%tmp_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V, i32 16"   --->   Operation 24 'bitselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_5 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V, i32 16"   --->   Operation 25 'bitselect' 'tmp_5' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 4.63>
+ST_2 : Operation 26 [1/1] (0.70ns)   --->   "%select_ln1496_2 = select i1 %tmp_5, i17 8026, i17 0"   --->   Operation 26 'select' 'select_ln1496_2' <Predicate = true> <Delay = 0.70> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 27 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_2 = add i17 %zi_V, i17 127059"   --->   Operation 27 'add' 'add_ln1496_2' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_2 : Operation 28 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_1 = add i17 %add_ln1496_2, i17 %select_ln1496_2"   --->   Operation 28 'add' 'zi_V_1' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%tmp_6 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_1, i32 16"   --->   Operation 29 'bitselect' 'tmp_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%tmp_8 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_1, i32 16"   --->   Operation 30 'bitselect' 'tmp_8' <Predicate = true> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 4.63>
+ST_3 : Operation 31 [1/1] (0.69ns)   --->   "%select_ln1496_5 = select i1 %tmp_8, i17 4074, i17 0"   --->   Operation 31 'select' 'select_ln1496_5' <Predicate = true> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 32 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_4 = add i17 %zi_V_1, i17 129035"   --->   Operation 32 'add' 'add_ln1496_4' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_3 : Operation 33 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_2 = add i17 %add_ln1496_4, i17 %select_ln1496_5"   --->   Operation 33 'add' 'zi_V_2' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%tmp_9 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_2, i32 16"   --->   Operation 34 'bitselect' 'tmp_9' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_10 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_2, i32 16"   --->   Operation 35 'bitselect' 'tmp_10' <Predicate = true> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 4.62>
+ST_4 : Operation 36 [1/1] (0.69ns)   --->   "%select_ln1496_8 = select i1 %tmp_10, i17 2044, i17 0"   --->   Operation 36 'select' 'select_ln1496_8' <Predicate = true> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 37 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_6 = add i17 %zi_V_2, i17 130050"   --->   Operation 37 'add' 'add_ln1496_6' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_4 : Operation 38 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_3 = add i17 %add_ln1496_6, i17 %select_ln1496_8"   --->   Operation 38 'add' 'zi_V_3' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%tmp_11 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_3, i32 16"   --->   Operation 39 'bitselect' 'tmp_11' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%tmp_12 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_3, i32 16"   --->   Operation 40 'bitselect' 'tmp_12' <Predicate = true> <Delay = 0.00>
+
+State 5 <SV = 4> <Delay = 4.62>
+ST_5 : Operation 41 [1/1] (0.69ns)   --->   "%select_ln1496_11 = select i1 %tmp_12, i17 1022, i17 0"   --->   Operation 41 'select' 'select_ln1496_11' <Predicate = true> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 42 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_8 = add i17 %zi_V_3, i17 130561"   --->   Operation 42 'add' 'add_ln1496_8' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_5 : Operation 43 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_4 = add i17 %add_ln1496_8, i17 %select_ln1496_11"   --->   Operation 43 'add' 'zi_V_4' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_5 : Operation 44 [1/1] (0.00ns)   --->   "%tmp_13 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_4, i32 16"   --->   Operation 44 'bitselect' 'tmp_13' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 45 [1/1] (0.00ns)   --->   "%tmp_14 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_4, i32 16"   --->   Operation 45 'bitselect' 'tmp_14' <Predicate = true> <Delay = 0.00>
+
+State 6 <SV = 5> <Delay = 4.61>
+ST_6 : Operation 46 [1/1] (0.68ns)   --->   "%select_ln1496_14 = select i1 %tmp_14, i17 510, i17 0"   --->   Operation 46 'select' 'select_ln1496_14' <Predicate = true> <Delay = 0.68> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 47 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_10 = add i17 %zi_V_4, i17 130817"   --->   Operation 47 'add' 'add_ln1496_10' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_6 : Operation 48 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_5 = add i17 %add_ln1496_10, i17 %select_ln1496_14"   --->   Operation 48 'add' 'zi_V_5' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_6 : Operation 49 [1/1] (0.00ns)   --->   "%tmp_15 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_5, i32 16"   --->   Operation 49 'bitselect' 'tmp_15' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 50 [1/1] (0.00ns)   --->   "%tmp_16 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_5, i32 16"   --->   Operation 50 'bitselect' 'tmp_16' <Predicate = true> <Delay = 0.00>
+
+State 7 <SV = 6> <Delay = 6.38>
+ST_7 : Operation 51 [1/1] (0.00ns) (grouped into LUT with out node xi_V_2)   --->   "%xi_V = select i1 %tmp, i14 14924, i14 4975"   --->   Operation 51 'select' 'xi_V' <Predicate = (!tmp_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 52 [1/1] (0.00ns) (grouped into LUT with out node yi_V_2)   --->   "%yi_V = select i1 %tmp, i15 27793, i15 14923"   --->   Operation 52 'select' 'yi_V' <Predicate = (!tmp_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 53 [1/1] (0.00ns) (grouped into LUT with out node xi_V_2)   --->   "%xi_V_1 = select i1 %tmp, i14 4974, i14 14923"   --->   Operation 53 'select' 'xi_V_1' <Predicate = (tmp_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 54 [1/1] (0.00ns) (grouped into LUT with out node yi_V_2)   --->   "%yi_V_1 = select i1 %tmp, i15 17845, i15 4975"   --->   Operation 54 'select' 'yi_V_1' <Predicate = (tmp_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 55 [1/1] (0.75ns) (out node of the LUT)   --->   "%yi_V_2 = select i1 %tmp_2, i15 %yi_V_1, i15 %yi_V"   --->   Operation 55 'select' 'yi_V_2' <Predicate = true> <Delay = 0.75> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 56 [1/1] (0.00ns)   --->   "%sext_ln50 = sext i15 %yi_V_2" [src/cordic.cpp:50]   --->   Operation 56 'sext' 'sext_ln50' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 57 [1/1] (0.70ns) (out node of the LUT)   --->   "%xi_V_2 = select i1 %tmp_2, i14 %xi_V_1, i14 %xi_V"   --->   Operation 57 'select' 'xi_V_2' <Predicate = true> <Delay = 0.70> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 58 [1/1] (0.00ns)   --->   "%zext_ln49 = zext i14 %xi_V_2" [src/cordic.cpp:49]   --->   Operation 58 'zext' 'zext_ln49' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 59 [1/1] (0.00ns)   --->   "%trunc_ln2 = partselect i13 @_ssdm_op_PartSelect.i13.i15.i32.i32, i15 %yi_V_2, i32 2, i32 14"   --->   Operation 59 'partselect' 'trunc_ln2' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 60 [1/1] (0.00ns)   --->   "%sext_ln1333 = sext i13 %trunc_ln2"   --->   Operation 60 'sext' 'sext_ln1333' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 61 [1/1] (0.00ns)   --->   "%r = partselect i12 @_ssdm_op_PartSelect.i12.i14.i32.i32, i14 %xi_V_2, i32 2, i32 13"   --->   Operation 61 'partselect' 'r' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 62 [1/1] (0.00ns)   --->   "%zext_ln1333 = zext i12 %r"   --->   Operation 62 'zext' 'zext_ln1333' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 63 [1/1] (1.81ns)   --->   "%xi_V_3 = sub i15 %zext_ln49, i15 %sext_ln1333"   --->   Operation 63 'sub' 'xi_V_3' <Predicate = (!tmp_4)> <Delay = 1.81> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 64 [1/1] (1.94ns)   --->   "%yi_V_3 = add i16 %sext_ln50, i16 %zext_ln1333"   --->   Operation 64 'add' 'yi_V_3' <Predicate = (!tmp_4)> <Delay = 1.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 65 [1/1] (1.81ns)   --->   "%xi_V_4 = add i15 %zext_ln49, i15 %sext_ln1333"   --->   Operation 65 'add' 'xi_V_4' <Predicate = (tmp_4)> <Delay = 1.81> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 66 [1/1] (1.94ns)   --->   "%yi_V_4 = sub i16 %sext_ln50, i16 %zext_ln1333"   --->   Operation 66 'sub' 'yi_V_4' <Predicate = (tmp_4)> <Delay = 1.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 67 [1/1] (0.80ns)   --->   "%yi_V_5 = select i1 %tmp_4, i16 %yi_V_4, i16 %yi_V_3"   --->   Operation 67 'select' 'yi_V_5' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 68 [1/1] (0.75ns)   --->   "%xi_V_5 = select i1 %tmp_4, i15 %xi_V_4, i15 %xi_V_3"   --->   Operation 68 'select' 'xi_V_5' <Predicate = true> <Delay = 0.75> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 69 [1/1] (0.00ns)   --->   "%zext_ln49_1 = zext i15 %xi_V_5" [src/cordic.cpp:49]   --->   Operation 69 'zext' 'zext_ln49_1' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 70 [1/1] (0.00ns)   --->   "%r_1 = partselect i13 @_ssdm_op_PartSelect.i13.i16.i32.i32, i16 %yi_V_5, i32 3, i32 15"   --->   Operation 70 'partselect' 'r_1' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 71 [1/1] (0.00ns)   --->   "%sext_ln1333_1 = sext i13 %r_1"   --->   Operation 71 'sext' 'sext_ln1333_1' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 72 [1/1] (0.00ns)   --->   "%tmp_7 = partselect i12 @_ssdm_op_PartSelect.i12.i15.i32.i32, i15 %xi_V_5, i32 3, i32 14"   --->   Operation 72 'partselect' 'tmp_7' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 73 [1/1] (0.00ns)   --->   "%zext_ln1333_1 = zext i12 %tmp_7"   --->   Operation 73 'zext' 'zext_ln1333_1' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 74 [1/1] (1.94ns)   --->   "%xi_V_6 = sub i16 %zext_ln49_1, i16 %sext_ln1333_1"   --->   Operation 74 'sub' 'xi_V_6' <Predicate = (!tmp_6)> <Delay = 1.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 75 [1/1] (2.07ns)   --->   "%yi_V_6 = add i16 %yi_V_5, i16 %zext_ln1333_1"   --->   Operation 75 'add' 'yi_V_6' <Predicate = (!tmp_6)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 76 [1/1] (1.94ns)   --->   "%xi_V_7 = add i16 %zext_ln49_1, i16 %sext_ln1333_1"   --->   Operation 76 'add' 'xi_V_7' <Predicate = (tmp_6)> <Delay = 1.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 77 [1/1] (2.07ns)   --->   "%yi_V_7 = sub i16 %yi_V_5, i16 %zext_ln1333_1"   --->   Operation 77 'sub' 'yi_V_7' <Predicate = (tmp_6)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 78 [1/1] (0.80ns)   --->   "%yi_V_8 = select i1 %tmp_6, i16 %yi_V_7, i16 %yi_V_6"   --->   Operation 78 'select' 'yi_V_8' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 79 [1/1] (0.80ns)   --->   "%xi_V_8 = select i1 %tmp_6, i16 %xi_V_7, i16 %xi_V_6"   --->   Operation 79 'select' 'xi_V_8' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 80 [1/1] (0.00ns)   --->   "%r_2 = partselect i12 @_ssdm_op_PartSelect.i12.i16.i32.i32, i16 %yi_V_8, i32 4, i32 15"   --->   Operation 80 'partselect' 'r_2' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 81 [1/1] (0.00ns)   --->   "%r_3 = partselect i12 @_ssdm_op_PartSelect.i12.i16.i32.i32, i16 %xi_V_8, i32 4, i32 15"   --->   Operation 81 'partselect' 'r_3' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 82 [1/1] (0.96ns)   --->   "%select_ln1496_17 = select i1 %tmp_16, i17 254, i17 0"   --->   Operation 82 'select' 'select_ln1496_17' <Predicate = true> <Delay = 0.96> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_7 : Operation 83 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_12 = add i17 %zi_V_5, i17 130945"   --->   Operation 83 'add' 'add_ln1496_12' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_7 : Operation 84 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_6 = add i17 %add_ln1496_12, i17 %select_ln1496_17"   --->   Operation 84 'add' 'zi_V_6' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_7 : Operation 85 [1/1] (0.00ns)   --->   "%tmp_17 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_6, i32 16"   --->   Operation 85 'bitselect' 'tmp_17' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 86 [1/1] (0.00ns)   --->   "%tmp_18 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_6, i32 16"   --->   Operation 86 'bitselect' 'tmp_18' <Predicate = true> <Delay = 0.00>
+
+State 8 <SV = 7> <Delay = 5.76>
+ST_8 : Operation 87 [1/1] (0.00ns)   --->   "%sext_ln1333_2 = sext i12 %r_2"   --->   Operation 87 'sext' 'sext_ln1333_2' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 88 [1/1] (0.00ns)   --->   "%sext_ln1333_3 = sext i12 %r_3"   --->   Operation 88 'sext' 'sext_ln1333_3' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 89 [1/1] (2.07ns)   --->   "%xi_V_9 = sub i16 %xi_V_8, i16 %sext_ln1333_2"   --->   Operation 89 'sub' 'xi_V_9' <Predicate = (!tmp_9)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 90 [1/1] (2.07ns)   --->   "%yi_V_9 = add i16 %yi_V_8, i16 %sext_ln1333_3"   --->   Operation 90 'add' 'yi_V_9' <Predicate = (!tmp_9)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 91 [1/1] (2.07ns)   --->   "%xi_V_10 = add i16 %xi_V_8, i16 %sext_ln1333_2"   --->   Operation 91 'add' 'xi_V_10' <Predicate = (tmp_9)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 92 [1/1] (2.07ns)   --->   "%yi_V_10 = sub i16 %yi_V_8, i16 %sext_ln1333_3"   --->   Operation 92 'sub' 'yi_V_10' <Predicate = (tmp_9)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 93 [1/1] (0.80ns)   --->   "%yi_V_11 = select i1 %tmp_9, i16 %yi_V_10, i16 %yi_V_9"   --->   Operation 93 'select' 'yi_V_11' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 94 [1/1] (0.80ns)   --->   "%xi_V_11 = select i1 %tmp_9, i16 %xi_V_10, i16 %xi_V_9"   --->   Operation 94 'select' 'xi_V_11' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 95 [1/1] (0.00ns)   --->   "%r_4 = partselect i11 @_ssdm_op_PartSelect.i11.i16.i32.i32, i16 %yi_V_11, i32 5, i32 15"   --->   Operation 95 'partselect' 'r_4' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 96 [1/1] (0.00ns)   --->   "%sext_ln1333_4 = sext i11 %r_4"   --->   Operation 96 'sext' 'sext_ln1333_4' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 97 [1/1] (0.00ns)   --->   "%r_5 = partselect i11 @_ssdm_op_PartSelect.i11.i16.i32.i32, i16 %xi_V_11, i32 5, i32 15"   --->   Operation 97 'partselect' 'r_5' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 98 [1/1] (0.00ns)   --->   "%sext_ln1333_5 = sext i11 %r_5"   --->   Operation 98 'sext' 'sext_ln1333_5' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 99 [1/1] (2.07ns)   --->   "%xi_V_12 = sub i16 %xi_V_11, i16 %sext_ln1333_4"   --->   Operation 99 'sub' 'xi_V_12' <Predicate = (!tmp_11)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 100 [1/1] (2.07ns)   --->   "%yi_V_12 = add i16 %yi_V_11, i16 %sext_ln1333_5"   --->   Operation 100 'add' 'yi_V_12' <Predicate = (!tmp_11)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 101 [1/1] (2.07ns)   --->   "%xi_V_13 = add i16 %xi_V_11, i16 %sext_ln1333_4"   --->   Operation 101 'add' 'xi_V_13' <Predicate = (tmp_11)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 102 [1/1] (2.07ns)   --->   "%yi_V_13 = sub i16 %yi_V_11, i16 %sext_ln1333_5"   --->   Operation 102 'sub' 'yi_V_13' <Predicate = (tmp_11)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 103 [1/1] (0.80ns)   --->   "%yi_V_14 = select i1 %tmp_11, i16 %yi_V_13, i16 %yi_V_12"   --->   Operation 103 'select' 'yi_V_14' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 104 [1/1] (0.80ns)   --->   "%xi_V_14 = select i1 %tmp_11, i16 %xi_V_13, i16 %xi_V_12"   --->   Operation 104 'select' 'xi_V_14' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 105 [1/1] (0.00ns)   --->   "%r_6 = partselect i10 @_ssdm_op_PartSelect.i10.i16.i32.i32, i16 %yi_V_14, i32 6, i32 15"   --->   Operation 105 'partselect' 'r_6' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 106 [1/1] (0.00ns)   --->   "%r_7 = partselect i10 @_ssdm_op_PartSelect.i10.i16.i32.i32, i16 %xi_V_14, i32 6, i32 15"   --->   Operation 106 'partselect' 'r_7' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 107 [1/1] (1.24ns)   --->   "%select_ln1496_20 = select i1 %tmp_18, i17 126, i17 0"   --->   Operation 107 'select' 'select_ln1496_20' <Predicate = true> <Delay = 1.24> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 108 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_14 = add i17 %zi_V_6, i17 131009"   --->   Operation 108 'add' 'add_ln1496_14' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_8 : Operation 109 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_7 = add i17 %add_ln1496_14, i17 %select_ln1496_20"   --->   Operation 109 'add' 'zi_V_7' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_8 : Operation 110 [1/1] (0.00ns)   --->   "%tmp_19 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_7, i32 16"   --->   Operation 110 'bitselect' 'tmp_19' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 111 [1/1] (0.00ns)   --->   "%tmp_20 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_7, i32 16"   --->   Operation 111 'bitselect' 'tmp_20' <Predicate = true> <Delay = 0.00>
+
+State 9 <SV = 8> <Delay = 5.76>
+ST_9 : Operation 112 [1/1] (0.00ns)   --->   "%sext_ln1333_6 = sext i10 %r_6"   --->   Operation 112 'sext' 'sext_ln1333_6' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 113 [1/1] (0.00ns)   --->   "%sext_ln1333_7 = sext i10 %r_7"   --->   Operation 113 'sext' 'sext_ln1333_7' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 114 [1/1] (2.07ns)   --->   "%xi_V_15 = sub i16 %xi_V_14, i16 %sext_ln1333_6"   --->   Operation 114 'sub' 'xi_V_15' <Predicate = (!tmp_13)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 115 [1/1] (2.07ns)   --->   "%yi_V_15 = add i16 %yi_V_14, i16 %sext_ln1333_7"   --->   Operation 115 'add' 'yi_V_15' <Predicate = (!tmp_13)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 116 [1/1] (2.07ns)   --->   "%xi_V_16 = add i16 %xi_V_14, i16 %sext_ln1333_6"   --->   Operation 116 'add' 'xi_V_16' <Predicate = (tmp_13)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 117 [1/1] (2.07ns)   --->   "%yi_V_16 = sub i16 %yi_V_14, i16 %sext_ln1333_7"   --->   Operation 117 'sub' 'yi_V_16' <Predicate = (tmp_13)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 118 [1/1] (0.80ns)   --->   "%yi_V_17 = select i1 %tmp_13, i16 %yi_V_16, i16 %yi_V_15"   --->   Operation 118 'select' 'yi_V_17' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_9 : Operation 119 [1/1] (0.80ns)   --->   "%xi_V_17 = select i1 %tmp_13, i16 %xi_V_16, i16 %xi_V_15"   --->   Operation 119 'select' 'xi_V_17' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_9 : Operation 120 [1/1] (0.00ns)   --->   "%r_8 = partselect i9 @_ssdm_op_PartSelect.i9.i16.i32.i32, i16 %yi_V_17, i32 7, i32 15"   --->   Operation 120 'partselect' 'r_8' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 121 [1/1] (0.00ns)   --->   "%sext_ln1333_8 = sext i9 %r_8"   --->   Operation 121 'sext' 'sext_ln1333_8' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 122 [1/1] (0.00ns)   --->   "%r_9 = partselect i9 @_ssdm_op_PartSelect.i9.i16.i32.i32, i16 %xi_V_17, i32 7, i32 15"   --->   Operation 122 'partselect' 'r_9' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 123 [1/1] (0.00ns)   --->   "%sext_ln1333_9 = sext i9 %r_9"   --->   Operation 123 'sext' 'sext_ln1333_9' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 124 [1/1] (2.07ns)   --->   "%xi_V_18 = sub i16 %xi_V_17, i16 %sext_ln1333_8"   --->   Operation 124 'sub' 'xi_V_18' <Predicate = (!tmp_15)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 125 [1/1] (2.07ns)   --->   "%yi_V_18 = add i16 %yi_V_17, i16 %sext_ln1333_9"   --->   Operation 125 'add' 'yi_V_18' <Predicate = (!tmp_15)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 126 [1/1] (2.07ns)   --->   "%xi_V_19 = add i16 %xi_V_17, i16 %sext_ln1333_8"   --->   Operation 126 'add' 'xi_V_19' <Predicate = (tmp_15)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 127 [1/1] (2.07ns)   --->   "%yi_V_19 = sub i16 %yi_V_17, i16 %sext_ln1333_9"   --->   Operation 127 'sub' 'yi_V_19' <Predicate = (tmp_15)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 128 [1/1] (0.80ns)   --->   "%yi_V_20 = select i1 %tmp_15, i16 %yi_V_19, i16 %yi_V_18"   --->   Operation 128 'select' 'yi_V_20' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_9 : Operation 129 [1/1] (0.80ns)   --->   "%xi_V_20 = select i1 %tmp_15, i16 %xi_V_19, i16 %xi_V_18"   --->   Operation 129 'select' 'xi_V_20' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_9 : Operation 130 [1/1] (0.00ns)   --->   "%r_10 = partselect i8 @_ssdm_op_PartSelect.i8.i16.i32.i32, i16 %yi_V_20, i32 8, i32 15"   --->   Operation 130 'partselect' 'r_10' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 131 [1/1] (0.00ns)   --->   "%r_11 = partselect i8 @_ssdm_op_PartSelect.i8.i16.i32.i32, i16 %xi_V_20, i32 8, i32 15"   --->   Operation 131 'partselect' 'r_11' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 132 [1/1] (0.99ns)   --->   "%select_ln1496_23 = select i1 %tmp_20, i17 62, i17 0"   --->   Operation 132 'select' 'select_ln1496_23' <Predicate = true> <Delay = 0.99> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_9 : Operation 133 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_16 = add i17 %zi_V_7, i17 131041"   --->   Operation 133 'add' 'add_ln1496_16' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_9 : Operation 134 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_8 = add i17 %add_ln1496_16, i17 %select_ln1496_23"   --->   Operation 134 'add' 'zi_V_8' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_9 : Operation 135 [1/1] (0.00ns)   --->   "%tmp_21 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_8, i32 16"   --->   Operation 135 'bitselect' 'tmp_21' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 136 [1/1] (0.00ns)   --->   "%tmp_22 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_8, i32 16"   --->   Operation 136 'bitselect' 'tmp_22' <Predicate = true> <Delay = 0.00>
+
+State 10 <SV = 9> <Delay = 5.76>
+ST_10 : Operation 137 [1/1] (0.00ns)   --->   "%sext_ln1333_10 = sext i8 %r_10"   --->   Operation 137 'sext' 'sext_ln1333_10' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 138 [1/1] (0.00ns)   --->   "%sext_ln1333_11 = sext i8 %r_11"   --->   Operation 138 'sext' 'sext_ln1333_11' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 139 [1/1] (2.07ns)   --->   "%xi_V_21 = sub i16 %xi_V_20, i16 %sext_ln1333_10"   --->   Operation 139 'sub' 'xi_V_21' <Predicate = (!tmp_17)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 140 [1/1] (2.07ns)   --->   "%yi_V_21 = add i16 %yi_V_20, i16 %sext_ln1333_11"   --->   Operation 140 'add' 'yi_V_21' <Predicate = (!tmp_17)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 141 [1/1] (2.07ns)   --->   "%xi_V_22 = add i16 %xi_V_20, i16 %sext_ln1333_10"   --->   Operation 141 'add' 'xi_V_22' <Predicate = (tmp_17)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 142 [1/1] (2.07ns)   --->   "%yi_V_22 = sub i16 %yi_V_20, i16 %sext_ln1333_11"   --->   Operation 142 'sub' 'yi_V_22' <Predicate = (tmp_17)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 143 [1/1] (0.80ns)   --->   "%yi_V_23 = select i1 %tmp_17, i16 %yi_V_22, i16 %yi_V_21"   --->   Operation 143 'select' 'yi_V_23' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_10 : Operation 144 [1/1] (0.80ns)   --->   "%xi_V_23 = select i1 %tmp_17, i16 %xi_V_22, i16 %xi_V_21"   --->   Operation 144 'select' 'xi_V_23' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_10 : Operation 145 [1/1] (0.00ns)   --->   "%r_12 = partselect i7 @_ssdm_op_PartSelect.i7.i16.i32.i32, i16 %yi_V_23, i32 9, i32 15"   --->   Operation 145 'partselect' 'r_12' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 146 [1/1] (0.00ns)   --->   "%sext_ln1333_12 = sext i7 %r_12"   --->   Operation 146 'sext' 'sext_ln1333_12' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 147 [1/1] (0.00ns)   --->   "%r_13 = partselect i7 @_ssdm_op_PartSelect.i7.i16.i32.i32, i16 %xi_V_23, i32 9, i32 15"   --->   Operation 147 'partselect' 'r_13' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 148 [1/1] (0.00ns)   --->   "%sext_ln1333_13 = sext i7 %r_13"   --->   Operation 148 'sext' 'sext_ln1333_13' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 149 [1/1] (2.07ns)   --->   "%xi_V_24 = sub i16 %xi_V_23, i16 %sext_ln1333_12"   --->   Operation 149 'sub' 'xi_V_24' <Predicate = (!tmp_19)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 150 [1/1] (2.07ns)   --->   "%yi_V_24 = add i16 %yi_V_23, i16 %sext_ln1333_13"   --->   Operation 150 'add' 'yi_V_24' <Predicate = (!tmp_19)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 151 [1/1] (2.07ns)   --->   "%xi_V_25 = add i16 %xi_V_23, i16 %sext_ln1333_12"   --->   Operation 151 'add' 'xi_V_25' <Predicate = (tmp_19)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 152 [1/1] (2.07ns)   --->   "%yi_V_25 = sub i16 %yi_V_23, i16 %sext_ln1333_13"   --->   Operation 152 'sub' 'yi_V_25' <Predicate = (tmp_19)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 153 [1/1] (0.80ns)   --->   "%yi_V_26 = select i1 %tmp_19, i16 %yi_V_25, i16 %yi_V_24"   --->   Operation 153 'select' 'yi_V_26' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_10 : Operation 154 [1/1] (0.80ns)   --->   "%xi_V_26 = select i1 %tmp_19, i16 %xi_V_25, i16 %xi_V_24"   --->   Operation 154 'select' 'xi_V_26' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_10 : Operation 155 [1/1] (0.00ns)   --->   "%r_14 = partselect i6 @_ssdm_op_PartSelect.i6.i16.i32.i32, i16 %yi_V_26, i32 10, i32 15"   --->   Operation 155 'partselect' 'r_14' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 156 [1/1] (0.00ns)   --->   "%r_15 = partselect i6 @_ssdm_op_PartSelect.i6.i16.i32.i32, i16 %xi_V_26, i32 10, i32 15"   --->   Operation 156 'partselect' 'r_15' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 157 [1/1] (1.18ns)   --->   "%select_ln1496_26 = select i1 %tmp_22, i17 30, i17 0"   --->   Operation 157 'select' 'select_ln1496_26' <Predicate = true> <Delay = 1.18> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_10 : Operation 158 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_18 = add i17 %zi_V_8, i17 131057"   --->   Operation 158 'add' 'add_ln1496_18' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_10 : Operation 159 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_9 = add i17 %add_ln1496_18, i17 %select_ln1496_26"   --->   Operation 159 'add' 'zi_V_9' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_10 : Operation 160 [1/1] (0.00ns)   --->   "%tmp_23 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_9, i32 16"   --->   Operation 160 'bitselect' 'tmp_23' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 161 [1/1] (0.00ns)   --->   "%tmp_24 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_9, i32 16"   --->   Operation 161 'bitselect' 'tmp_24' <Predicate = true> <Delay = 0.00>
+
+State 11 <SV = 10> <Delay = 5.76>
+ST_11 : Operation 162 [1/1] (0.00ns)   --->   "%sext_ln1333_14 = sext i6 %r_14"   --->   Operation 162 'sext' 'sext_ln1333_14' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 163 [1/1] (0.00ns)   --->   "%sext_ln1333_15 = sext i6 %r_15"   --->   Operation 163 'sext' 'sext_ln1333_15' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 164 [1/1] (2.07ns)   --->   "%xi_V_27 = sub i16 %xi_V_26, i16 %sext_ln1333_14"   --->   Operation 164 'sub' 'xi_V_27' <Predicate = (!tmp_21)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 165 [1/1] (2.07ns)   --->   "%yi_V_27 = add i16 %yi_V_26, i16 %sext_ln1333_15"   --->   Operation 165 'add' 'yi_V_27' <Predicate = (!tmp_21)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 166 [1/1] (2.07ns)   --->   "%xi_V_28 = add i16 %xi_V_26, i16 %sext_ln1333_14"   --->   Operation 166 'add' 'xi_V_28' <Predicate = (tmp_21)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 167 [1/1] (2.07ns)   --->   "%yi_V_28 = sub i16 %yi_V_26, i16 %sext_ln1333_15"   --->   Operation 167 'sub' 'yi_V_28' <Predicate = (tmp_21)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 168 [1/1] (0.80ns)   --->   "%yi_V_29 = select i1 %tmp_21, i16 %yi_V_28, i16 %yi_V_27"   --->   Operation 168 'select' 'yi_V_29' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_11 : Operation 169 [1/1] (0.80ns)   --->   "%xi_V_29 = select i1 %tmp_21, i16 %xi_V_28, i16 %xi_V_27"   --->   Operation 169 'select' 'xi_V_29' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_11 : Operation 170 [1/1] (0.00ns)   --->   "%r_16 = partselect i5 @_ssdm_op_PartSelect.i5.i16.i32.i32, i16 %yi_V_29, i32 11, i32 15"   --->   Operation 170 'partselect' 'r_16' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 171 [1/1] (0.00ns)   --->   "%sext_ln1333_16 = sext i5 %r_16"   --->   Operation 171 'sext' 'sext_ln1333_16' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 172 [1/1] (0.00ns)   --->   "%r_17 = partselect i5 @_ssdm_op_PartSelect.i5.i16.i32.i32, i16 %xi_V_29, i32 11, i32 15"   --->   Operation 172 'partselect' 'r_17' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 173 [1/1] (0.00ns)   --->   "%sext_ln1333_17 = sext i5 %r_17"   --->   Operation 173 'sext' 'sext_ln1333_17' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 174 [1/1] (2.07ns)   --->   "%xi_V_30 = sub i16 %xi_V_29, i16 %sext_ln1333_16"   --->   Operation 174 'sub' 'xi_V_30' <Predicate = (!tmp_23)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 175 [1/1] (2.07ns)   --->   "%yi_V_30 = add i16 %yi_V_29, i16 %sext_ln1333_17"   --->   Operation 175 'add' 'yi_V_30' <Predicate = (!tmp_23)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 176 [1/1] (2.07ns)   --->   "%xi_V_31 = add i16 %xi_V_29, i16 %sext_ln1333_16"   --->   Operation 176 'add' 'xi_V_31' <Predicate = (tmp_23)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 177 [1/1] (2.07ns)   --->   "%yi_V_31 = sub i16 %yi_V_29, i16 %sext_ln1333_17"   --->   Operation 177 'sub' 'yi_V_31' <Predicate = (tmp_23)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 178 [1/1] (1.18ns)   --->   "%select_ln1496_29 = select i1 %tmp_24, i17 16, i17 0"   --->   Operation 178 'select' 'select_ln1496_29' <Predicate = true> <Delay = 1.18> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_11 : Operation 179 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_20 = add i17 %zi_V_9, i17 131064"   --->   Operation 179 'add' 'add_ln1496_20' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_11 : Operation 180 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_10 = add i17 %add_ln1496_20, i17 %select_ln1496_29"   --->   Operation 180 'add' 'zi_V_10' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_11 : Operation 181 [1/1] (0.80ns)   --->   "%yi_V_32 = select i1 %tmp_23, i16 %yi_V_31, i16 %yi_V_30"   --->   Operation 181 'select' 'yi_V_32' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_11 : Operation 182 [1/1] (0.80ns)   --->   "%xi_V_32 = select i1 %tmp_23, i16 %xi_V_31, i16 %xi_V_30"   --->   Operation 182 'select' 'xi_V_32' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_11 : Operation 183 [1/1] (0.00ns)   --->   "%tmp_25 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_10, i32 16"   --->   Operation 183 'bitselect' 'tmp_25' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 184 [1/1] (0.00ns)   --->   "%r_18 = partselect i4 @_ssdm_op_PartSelect.i4.i16.i32.i32, i16 %yi_V_32, i32 12, i32 15"   --->   Operation 184 'partselect' 'r_18' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 185 [1/1] (0.00ns)   --->   "%r_19 = partselect i4 @_ssdm_op_PartSelect.i4.i16.i32.i32, i16 %xi_V_32, i32 12, i32 15"   --->   Operation 185 'partselect' 'r_19' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 186 [1/1] (0.00ns)   --->   "%tmp_26 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_10, i32 16"   --->   Operation 186 'bitselect' 'tmp_26' <Predicate = true> <Delay = 0.00>
+
+State 12 <SV = 11> <Delay = 5.76>
+ST_12 : Operation 187 [1/1] (0.00ns)   --->   "%sext_ln1333_18 = sext i4 %r_18"   --->   Operation 187 'sext' 'sext_ln1333_18' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 188 [1/1] (0.00ns)   --->   "%sext_ln1333_19 = sext i4 %r_19"   --->   Operation 188 'sext' 'sext_ln1333_19' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 189 [1/1] (2.07ns)   --->   "%xi_V_33 = sub i16 %xi_V_32, i16 %sext_ln1333_18"   --->   Operation 189 'sub' 'xi_V_33' <Predicate = (!tmp_25)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 190 [1/1] (2.07ns)   --->   "%yi_V_33 = add i16 %yi_V_32, i16 %sext_ln1333_19"   --->   Operation 190 'add' 'yi_V_33' <Predicate = (!tmp_25)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 191 [1/1] (2.07ns)   --->   "%xi_V_34 = add i16 %xi_V_32, i16 %sext_ln1333_18"   --->   Operation 191 'add' 'xi_V_34' <Predicate = (tmp_25)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 192 [1/1] (2.07ns)   --->   "%yi_V_34 = sub i16 %yi_V_32, i16 %sext_ln1333_19"   --->   Operation 192 'sub' 'yi_V_34' <Predicate = (tmp_25)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 193 [1/1] (1.02ns)   --->   "%select_ln1496_32 = select i1 %tmp_26, i17 6, i17 0"   --->   Operation 193 'select' 'select_ln1496_32' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 194 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_22 = add i17 %zi_V_10, i17 131069"   --->   Operation 194 'add' 'add_ln1496_22' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_12 : Operation 195 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_11 = add i17 %add_ln1496_22, i17 %select_ln1496_32"   --->   Operation 195 'add' 'zi_V_11' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_12 : Operation 196 [1/1] (0.80ns)   --->   "%yi_V_35 = select i1 %tmp_25, i16 %yi_V_34, i16 %yi_V_33"   --->   Operation 196 'select' 'yi_V_35' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 197 [1/1] (0.80ns)   --->   "%xi_V_35 = select i1 %tmp_25, i16 %xi_V_34, i16 %xi_V_33"   --->   Operation 197 'select' 'xi_V_35' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 198 [1/1] (0.00ns)   --->   "%tmp_27 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_11, i32 16"   --->   Operation 198 'bitselect' 'tmp_27' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 199 [1/1] (0.00ns)   --->   "%r_20 = partselect i3 @_ssdm_op_PartSelect.i3.i16.i32.i32, i16 %yi_V_35, i32 13, i32 15"   --->   Operation 199 'partselect' 'r_20' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 200 [1/1] (0.00ns)   --->   "%sext_ln1333_20 = sext i3 %r_20"   --->   Operation 200 'sext' 'sext_ln1333_20' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 201 [1/1] (0.00ns)   --->   "%r_21 = partselect i3 @_ssdm_op_PartSelect.i3.i16.i32.i32, i16 %xi_V_35, i32 13, i32 15"   --->   Operation 201 'partselect' 'r_21' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 202 [1/1] (0.00ns)   --->   "%sext_ln1333_21 = sext i3 %r_21"   --->   Operation 202 'sext' 'sext_ln1333_21' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 203 [1/1] (2.07ns)   --->   "%xi_V_36 = sub i16 %xi_V_35, i16 %sext_ln1333_20"   --->   Operation 203 'sub' 'xi_V_36' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 204 [1/1] (2.07ns)   --->   "%yi_V_36 = add i16 %yi_V_35, i16 %sext_ln1333_21"   --->   Operation 204 'add' 'yi_V_36' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 205 [1/1] (2.07ns)   --->   "%xi_V_37 = add i16 %xi_V_35, i16 %sext_ln1333_20"   --->   Operation 205 'add' 'xi_V_37' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 206 [1/1] (2.07ns)   --->   "%yi_V_37 = sub i16 %yi_V_35, i16 %sext_ln1333_21"   --->   Operation 206 'sub' 'yi_V_37' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 207 [1/1] (0.00ns)   --->   "%tmp_28 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_11, i32 16"   --->   Operation 207 'bitselect' 'tmp_28' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 208 [1/1] (0.80ns)   --->   "%yi_V_38 = select i1 %tmp_27, i16 %yi_V_37, i16 %yi_V_36"   --->   Operation 208 'select' 'yi_V_38' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 209 [1/1] (0.80ns)   --->   "%xi_V_38 = select i1 %tmp_27, i16 %xi_V_37, i16 %xi_V_36"   --->   Operation 209 'select' 'xi_V_38' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 210 [1/1] (0.00ns)   --->   "%r_22 = partselect i2 @_ssdm_op_PartSelect.i2.i16.i32.i32, i16 %yi_V_38, i32 14, i32 15"   --->   Operation 210 'partselect' 'r_22' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 211 [1/1] (0.00ns)   --->   "%r_23 = partselect i2 @_ssdm_op_PartSelect.i2.i16.i32.i32, i16 %xi_V_38, i32 14, i32 15"   --->   Operation 211 'partselect' 'r_23' <Predicate = true> <Delay = 0.00>
+
+State 13 <SV = 12> <Delay = 5.76>
+ST_13 : Operation 212 [1/1] (0.00ns)   --->   "%flag_delay_V_write_read = read i2 @_ssdm_op_Read.ap_auto.i2, i2 %flag_delay_V_write"   --->   Operation 212 'read' 'flag_delay_V_write_read' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 213 [1/1] (1.02ns)   --->   "%select_ln1496_35 = select i1 %tmp_28, i17 4, i17 0"   --->   Operation 213 'select' 'select_ln1496_35' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 214 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln1496_24 = add i17 %zi_V_11, i17 131070"   --->   Operation 214 'add' 'add_ln1496_24' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_13 : Operation 215 [1/1] (3.93ns) (root node of TernaryAdder)   --->   "%zi_V_12 = add i17 %add_ln1496_24, i17 %select_ln1496_35"   --->   Operation 215 'add' 'zi_V_12' <Predicate = true> <Delay = 3.93> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.96> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
+ST_13 : Operation 216 [1/1] (0.00ns)   --->   "%tmp_29 = bitselect i1 @_ssdm_op_BitSelect.i1.i17.i32, i17 %zi_V_12, i32 16"   --->   Operation 216 'bitselect' 'tmp_29' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 217 [1/1] (0.00ns)   --->   "%sext_ln1333_22 = sext i2 %r_22"   --->   Operation 217 'sext' 'sext_ln1333_22' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 218 [1/1] (0.00ns)   --->   "%sext_ln1333_23 = sext i2 %r_23"   --->   Operation 218 'sext' 'sext_ln1333_23' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 219 [1/1] (2.07ns)   --->   "%xi_V_39 = sub i16 %xi_V_38, i16 %sext_ln1333_22"   --->   Operation 219 'sub' 'xi_V_39' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 220 [1/1] (2.07ns)   --->   "%yi_V_39 = add i16 %yi_V_38, i16 %sext_ln1333_23"   --->   Operation 220 'add' 'yi_V_39' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 221 [1/1] (2.07ns)   --->   "%xi_V_40 = add i16 %xi_V_38, i16 %sext_ln1333_22"   --->   Operation 221 'add' 'xi_V_40' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 222 [1/1] (2.07ns)   --->   "%yi_V_40 = sub i16 %yi_V_38, i16 %sext_ln1333_23"   --->   Operation 222 'sub' 'yi_V_40' <Predicate = true> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 223 [1/1] (0.80ns)   --->   "%yi_V_41 = select i1 %tmp_29, i16 %yi_V_40, i16 %yi_V_39" [src/cordic.cpp:68]   --->   Operation 223 'select' 'yi_V_41' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 224 [1/1] (0.80ns)   --->   "%xi_V_41 = select i1 %tmp_29, i16 %xi_V_40, i16 %xi_V_39" [src/cordic.cpp:68]   --->   Operation 224 'select' 'xi_V_41' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 225 [1/1] (0.00ns)   --->   "%mrv = insertvalue i34 <undef>, i16 %yi_V_41" [src/cordic.cpp:85]   --->   Operation 225 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 226 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue i34 %mrv, i16 %xi_V_41" [src/cordic.cpp:85]   --->   Operation 226 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 227 [1/1] (0.00ns)   --->   "%mrv_2 = insertvalue i34 %mrv_1, i2 %flag_delay_V_write_read" [src/cordic.cpp:85]   --->   Operation 227 'insertvalue' 'mrv_2' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 228 [1/1] (0.00ns)   --->   "%ret_ln85 = ret i34 %mrv_2" [src/cordic.cpp:85]   --->   Operation 228 'ret' 'ret_ln85' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 6.79ns
+The critical path consists of the following:
+	wire read on port 'alpha' [4]  (0 ns)
+	'add' operation ('add_ln68', src/cordic.cpp:68) [8]  (2.11 ns)
+	'select' operation ('select_ln1496') [15]  (0.754 ns)
+	'add' operation ('zi.V') [17]  (3.93 ns)
+
+ <State 2>: 4.63ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_2') [32]  (0.702 ns)
+	'add' operation ('zi.V') [34]  (3.93 ns)
+
+ <State 3>: 4.63ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_5') [48]  (0.7 ns)
+	'add' operation ('zi.V') [50]  (3.93 ns)
+
+ <State 4>: 4.63ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_8') [63]  (0.697 ns)
+	'add' operation ('zi.V') [65]  (3.93 ns)
+
+ <State 5>: 4.62ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_11') [78]  (0.692 ns)
+	'add' operation ('zi.V') [80]  (3.93 ns)
+
+ <State 6>: 4.62ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_14') [93]  (0.687 ns)
+	'add' operation ('zi.V') [95]  (3.93 ns)
+
+ <State 7>: 6.38ns
+The critical path consists of the following:
+	'select' operation ('yi.V') [11]  (0 ns)
+	'select' operation ('yi.V') [18]  (0.754 ns)
+	'sub' operation ('yi.V') [30]  (1.94 ns)
+	'select' operation ('yi.V') [35]  (0.805 ns)
+	'add' operation ('yi.V') [44]  (2.08 ns)
+	'select' operation ('yi.V') [51]  (0.805 ns)
+
+ <State 8>: 5.76ns
+The critical path consists of the following:
+	'sub' operation ('xi.V') [58]  (2.08 ns)
+	'select' operation ('xi.V') [67]  (0.805 ns)
+	'sub' operation ('yi.V') [76]  (2.08 ns)
+	'select' operation ('yi.V') [81]  (0.805 ns)
+
+ <State 9>: 5.76ns
+The critical path consists of the following:
+	'sub' operation ('xi.V') [88]  (2.08 ns)
+	'select' operation ('xi.V') [97]  (0.805 ns)
+	'add' operation ('yi.V') [104]  (2.08 ns)
+	'select' operation ('yi.V') [111]  (0.805 ns)
+
+ <State 10>: 5.76ns
+The critical path consists of the following:
+	'sub' operation ('xi.V') [118]  (2.08 ns)
+	'select' operation ('xi.V') [127]  (0.805 ns)
+	'add' operation ('yi.V') [134]  (2.08 ns)
+	'select' operation ('yi.V') [141]  (0.805 ns)
+
+ <State 11>: 5.76ns
+The critical path consists of the following:
+	'sub' operation ('xi.V') [148]  (2.08 ns)
+	'select' operation ('xi.V') [157]  (0.805 ns)
+	'add' operation ('yi.V') [164]  (2.08 ns)
+	'select' operation ('yi.V') [171]  (0.805 ns)
+
+ <State 12>: 5.76ns
+The critical path consists of the following:
+	'sub' operation ('xi.V') [178]  (2.08 ns)
+	'select' operation ('xi.V') [187]  (0.805 ns)
+	'add' operation ('yi.V') [194]  (2.08 ns)
+	'select' operation ('yi.V') [201]  (0.805 ns)
+
+ <State 13>: 5.76ns
+The critical path consists of the following:
+	'select' operation ('select_ln1496_35') [198]  (1.02 ns)
+	'add' operation ('zi.V') [200]  (3.93 ns)
+	'select' operation ('yi.V', src/cordic.cpp:68) [212]  (0.805 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

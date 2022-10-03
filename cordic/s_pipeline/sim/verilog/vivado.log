@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  3 16:03:30 2022
+# Process ID: 17741
+# Current directory: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog
+# Command line: vivado -source open_wave.tcl
+# Log file: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/vivado.log
+# Journal file: /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+# open_wave_database cordic.wdb
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_cordic_top/AESL_inst_cordic/AESL_inst_cordic_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_cordic_top/AESL_inst_cordic/grp_cordic_calculate_fu_62/grp_cordic_calculate_fu_62_activity
+open_wave_config /home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/cordic.wcfg

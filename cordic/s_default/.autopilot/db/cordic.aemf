@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1664781710835">
+  <ports id="1" name="full_alpha" type="PortType" originalName="full_alpha" coreId="0" bitwidth="17">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="sin_out" type="PortType" originalName="sin_out" coreId="49" bitwidth="16" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="3" name="cos_out" type="PortType" originalName="cos_out" coreId="49" bitwidth="16" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="117" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="122" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="127" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="128" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="133" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="134" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="135" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="136" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="137" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="138" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="139" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="140" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="145" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="146" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="147" source_obj="//@blocks.0/@node_objs.14" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="148" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="151" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="157" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@blocks.0/@node_objs.17"/>
+  <edges id="158" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.18"/>
+  <edges id="163" source_obj="//@blocks.0/@node_objs.18" sink_obj="//@blocks.0/@node_objs.19"/>
+  <edges id="164" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.20"/>
+  <edges id="167" source_obj="//@blocks.0/@node_objs.15" sink_obj="//@blocks.0/@node_objs.21"/>
+  <edges id="168" source_obj="//@blocks.0/@node_objs.20" sink_obj="//@blocks.0/@node_objs.21"/>
+  <edges id="170" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="172" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.23"/>
+  <edges id="173" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.24"/>
+  <edges id="174" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.24"/>
+  <edges id="175" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.25"/>
+  <edges id="176" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="177" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="180" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="181" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="184" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="187" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="188" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="189" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="190" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="191" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="192" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="193" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="196" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="199" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="200" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="201" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="202" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="203" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="204" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="206" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="207" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="208" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="209" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="211" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="212" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.12"/>
+  <edges id="214" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.12"/>
+  <edges id="215" source_obj="//@regions.0/@basic_blocks.1/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.13"/>
+  <edges id="216" source_obj="//@regions.0/@basic_blocks.1/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.14"/>
+  <edges id="217" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="218" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="219" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="220" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.0"/>
+  <edges id="221" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.0"/>
+  <edges id="222" source_obj="//@regions.0/@basic_blocks.2/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="223" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="224" source_obj="//@regions.0/@basic_blocks.1/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.2"/>
+  <edges id="225" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.2"/>
+  <edges id="226" source_obj="//@regions.0/@basic_blocks.2/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.3"/>
+  <edges id="227" source_obj="//@regions.0/@basic_blocks.1/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.3"/>
+  <edges id="228" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.4"/>
+  <edges id="229" source_obj="//@regions.0/@basic_blocks.1/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.4"/>
+  <edges id="230" source_obj="//@regions.0/@basic_blocks.2/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <edges id="231" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <edges id="232" source_obj="//@regions.0/@basic_blocks.2/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.6"/>
+  <edges id="233" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.6"/>
+  <edges id="234" source_obj="//@regions.0/@basic_blocks.2/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.7"/>
+  <edges id="235" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.7"/>
+  <edges id="236" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.8"/>
+  <edges id="237" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0"/>
+  <edges id="238" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0"/>
+  <edges id="239" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.1"/>
+  <edges id="240" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.1"/>
+  <edges id="241" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.2"/>
+  <edges id="242" source_obj="//@regions.0/@basic_blocks.1/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.2"/>
+  <edges id="243" source_obj="//@regions.0/@basic_blocks.3/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.3"/>
+  <edges id="244" source_obj="//@regions.0/@basic_blocks.1/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.3"/>
+  <edges id="245" source_obj="//@regions.0/@basic_blocks.1/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.4"/>
+  <edges id="246" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.4"/>
+  <edges id="247" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.5"/>
+  <edges id="248" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.5"/>
+  <edges id="249" source_obj="//@regions.0/@basic_blocks.3/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="250" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="251" source_obj="//@regions.0/@basic_blocks.3/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.7"/>
+  <edges id="252" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.7"/>
+  <edges id="253" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.8"/>
+  <edges id="254" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="256" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="257" source_obj="//@blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="258" source_obj="//@regions.0/@basic_blocks.4/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="259" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="260" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="264" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="265" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.1/@node_objs.2"/>
+  <edges id="268" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="269" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.1/@node_objs.4"/>
+  <edges id="272" source_obj="//@blocks.1/@node_objs.4" sink_obj="//@blocks.1/@node_objs.5"/>
+  <edges id="275" source_obj="//@blocks.1/@node_objs.6" sink_obj="//@ports.1"/>
+  <edges id="276" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@blocks.1/@node_objs.6"/>
+  <edges id="277" source_obj="//@blocks.1/@node_objs.5" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="278" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="280" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="282" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="284" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="286" source_obj="//@blocks.3/@node_objs.1" sink_obj="//@ports.2"/>
+  <edges id="287" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.3/@node_objs.1"/>
+  <edges id="288" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.3/@node_objs.2"/>
+  <edges id="290" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="292" source_obj="//@blocks.2/@node_objs.1" sink_obj="//@ports.2"/>
+  <edges id="293" source_obj="//@blocks.2/@node_objs.0" sink_obj="//@blocks.2/@node_objs.1"/>
+  <edges id="294" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.2/@node_objs.2"/>
+  <edges id="296" source_obj="//@blocks.4/@node_objs.0" sink_obj="//@ports.2"/>
+  <edges id="297" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="298" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.4/@node_objs.1"/>
+  <edges id="388" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="389" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="390" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="391" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.3"/>
+  <edges id="392" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.2"/>
+  <edges id="393" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.4"/>
+  <edges id="394" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.4"/>
+  <edges id="395" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="396" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.4"/>
+  <edges id="397" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.3"/>
+  <edges id="398" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.2"/>
+  <edges id="399" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.5"/>
+  <edges id="400" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.5"/>
+  <edges id="401" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.5"/>
+  <edges id="402" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="403" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="404" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="405" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.5"/>
+  <edges id="406" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="407" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.7"/>
+  <edges id="408" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <edges id="409" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.6"/>
+  <edges id="410" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.7"/>
+  <edges id="411" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.7"/>
+  <edges id="412" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="413" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.5"/>
+  <edges id="414" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.7"/>
+  <edges id="415" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.6"/>
+  <edges id="416" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <blocks id="39" name="_ifconv" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="alpha_V_3" originalName="alpha.V" coreId="3161095930" bitwidth="17" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="empty" coreId="3892314256" bitwidth="16" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="empty_6" coreId="811" bitwidth="16" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="full_alpha_read" originalName="full_alpha" coreId="0" bitwidth="17" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <dataInputObjs>full_alpha</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>sub</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>sub</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="xi_V" lineNumber="49" originalName="xi.V" fileName="src/cordic.cpp" fileDirectory=".." rtlName="xi_V_U" coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="16" opcode="alloca" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="49" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="yi_V" lineNumber="50" originalName="yi.V" fileName="src/cordic.cpp" fileDirectory=".." rtlName="yi_V_U" coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="16" opcode="alloca" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="50" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="flag_delay_a_V" lineNumber="52" originalName="flag_delay_a.V" fileName="src/cordic.cpp" fileDirectory=".." rtlName="flag_delay_a_V_U" coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="2" opcode="alloca" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="52" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <dataOutputObjs>getelementptr</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="icmp_ln1494" lineNumber="1494" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_fu_240_p2" opType="icmp" coreId="49" contextFuncName="operator_gt_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.43" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1494" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="alpha_V" lineNumber="703" originalName="alpha.V" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="alpha_V_fu_246_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="sub" m_display="0" m_delay="2.1" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="icmp_ln1495" lineNumber="1495" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_fu_252_p2" opType="icmp" coreId="84" contextFuncName="operator_lt_19_5_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.43" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1495" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;lt;&amp;lt;19, 5, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="alpha_V_4" lineNumber="703" originalName="alpha.V" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="alpha_V_4_fu_258_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_19_5_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="sub" m_display="0" m_delay="2.1" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;19, 5, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="select_ln24" lineNumber="24" fileName="src/cordic.cpp" fileDirectory=".." rtlName="select_ln24_fu_264_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="pre_cordic" bitwidth="17" opcode="select" m_display="0" m_topoIndex="12" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="24" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="pre_cordic"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>sub</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="alpha_V_5" lineNumber="1494" originalName="alpha.V" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="alpha_V_5_fu_272_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="operator_gt_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="select" m_display="0" m_delay="0.78" m_topoIndex="13" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1494" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>sub</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="select_ln1494_1" lineNumber="1494" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="select_ln1494_1_fu_280_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="operator_gt_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="2" opcode="select" m_display="0" m_topoIndex="14" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1494" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="or_ln1494" lineNumber="1494" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="or_ln1494_fu_288_p2" opType="or" coreId="132" contextFuncName="operator_gt_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="or" m_display="0" m_topoIndex="15" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1494" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="flag_V" lineNumber="1494" originalName="flag.V" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="flag_V_fu_294_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="operator_gt_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="2" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="16" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1494" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="xi_V_addr" lineNumber="54" fileName="src/cordic.cpp" fileDirectory=".." coreId="132" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="54" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="xi_V_addr_write_ln54" lineNumber="54" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="2.32" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="54" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>getelementptr</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="yi_V_addr" lineNumber="55" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="55" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="yi_V_addr_write_ln55" lineNumber="55" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="2.32" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="55" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>getelementptr</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="flag_delay_a_V_addr" lineNumber="57" fileName="src/cordic.cpp" fileDirectory=".." coreId="2675964688" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="57" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="flag_delay_a_V_addr_write_ln57" lineNumber="57" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="2.32" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="57" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>getelementptr</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="empty_6_write_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="1.7" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="empty_write_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="1.7" m_topoIndex="24" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="alpha_V_3_write_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." coreId="2675897432" contextFuncName="cordic_calculate" opcode="store" m_display="0" m_delay="1.7" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="br_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="br" m_display="0" m_delay="1.58" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>49</validLinenumbers>
+      <validLinenumbers>50</validLinenumbers>
+      <validLinenumbers>52</validLinenumbers>
+      <validLinenumbers>24</validLinenumbers>
+      <validLinenumbers>54</validLinenumbers>
+      <validLinenumbers>55</validLinenumbers>
+      <validLinenumbers>57</validLinenumbers>
+      <validLinenumbers>66</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+      <validLinenumbers>1494</validLinenumbers>
+      <validLinenumbers>703</validLinenumbers>
+      <validLinenumbers>1495</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="97" name="_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit" type="BlockType">
+    <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_108</controlOutputObjs>
+    <controlOutputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit36.i</controlOutputObjs>
+    <controlOutputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit.i</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="yi_V_addr_1" lineNumber="82" fileName="src/cordic.cpp" fileDirectory=".." coreId="49" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="68" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="82" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="90" name="mysin_V" lineNumber="82" originalName="mysin.V" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="16" opcode="load" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="82" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>getelementptr</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="xi_V_addr_1" lineNumber="83" fileName="src/cordic.cpp" fileDirectory=".." coreId="132" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="83" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="92" name="mycos_V" lineNumber="83" originalName="mycos.V" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="16" opcode="load" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="71" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="83" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>getelementptr</dataInputObjs>
+      <dataOutputObjs>sub</dataOutputObjs>
+      <dataOutputObjs>sub</dataOutputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="93" name="flag_delay_a_V_addr_1" lineNumber="84" fileName="src/cordic.cpp" fileDirectory=".." coreId="539764286" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="84" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="94" name="flag_delay_V" lineNumber="84" originalName="flag_delay.V" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" bitwidth="2" opcode="load" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="73" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="84" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+      <dataInputObjs>getelementptr</dataInputObjs>
+      <dataOutputObjs>switch</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="95" name="sin_out_write_ln110" lineNumber="110" fileName="src/cordic.cpp" fileDirectory=".." coreId="826041445" contextFuncName="post_cordic" opcode="write" nodeLabel="4.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="110" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>sin_out</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="96" name="_ln99" lineNumber="99" fileName="src/cordic.cpp" fileDirectory=".." coreId="825045040" contextFuncName="post_cordic" opcode="switch" nodeLabel="4.0" m_display="0" m_delay="1.13" m_topoIndex="75" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="99" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <dataInputObjs>load</dataInputObjs>
+      <controlInputObjs>block_108</controlInputObjs>
+      <controlInputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit36.i</controlInputObjs>
+      <controlInputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit.i</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>82</validLinenumbers>
+      <validLinenumbers>83</validLinenumbers>
+      <validLinenumbers>84</validLinenumbers>
+      <validLinenumbers>110</validLinenumbers>
+      <validLinenumbers>99</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="101" name="_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit.i" type="BlockType">
+    <controlInputObjs>_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit</controlInputObjs>
+    <controlOutputObjs>switch</controlOutputObjs>
+    <controlOutputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="98" name="sub_ln703_1" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="grp_fu_233_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="sub" nodeLabel="4.0" m_display="0" m_delay="2.07" m_topoIndex="76" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="99" name="cos_out_write_ln107" lineNumber="107" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="post_cordic" opcode="write" nodeLabel="4.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="107" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <dataInputObjs>sub</dataInputObjs>
+      <dataOutputObjs>cos_out</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="br_ln108" lineNumber="108" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="post_cordic" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="108" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <controlInputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>107</validLinenumbers>
+      <validLinenumbers>108</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+      <validLinenumbers>703</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="105" name="_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit36.i" type="BlockType">
+    <controlInputObjs>_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit</controlInputObjs>
+    <controlOutputObjs>switch</controlOutputObjs>
+    <controlOutputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="102" name="sub_ln703" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="grp_fu_233_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="sub" nodeLabel="4.0" m_display="0" m_delay="2.07" m_topoIndex="79" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="103" name="cos_out_write_ln103" lineNumber="103" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="post_cordic" opcode="write" nodeLabel="4.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="103" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <dataInputObjs>sub</dataInputObjs>
+      <dataOutputObjs>cos_out</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="104" name="br_ln104" lineNumber="104" fileName="src/cordic.cpp" fileDirectory=".." coreId="106" contextFuncName="post_cordic" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="81" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="104" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <controlInputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>103</validLinenumbers>
+      <validLinenumbers>104</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+      <validLinenumbers>703</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="108" name="block_108" type="BlockType">
+    <controlInputObjs>_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit</controlInputObjs>
+    <controlOutputObjs>switch</controlOutputObjs>
+    <controlOutputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="106" name="cos_out_write_ln111" lineNumber="111" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="post_cordic" opcode="write" nodeLabel="4.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="111" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>cos_out</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="107" name="br_ln112" lineNumber="112" fileName="src/cordic.cpp" fileDirectory=".." coreId="132" contextFuncName="post_cordic" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="112" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="post_cordic"/>
+      <controlInputObjs>_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>111</validLinenumbers>
+      <validLinenumbers>112</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="110" name="_Z11post_cordic8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_7ap_uintILi2EERS2_S5_.exit" type="BlockType">
+    <controlInputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit.i</controlInputObjs>
+    <controlInputObjs>_ZNK13ap_fixed_baseILi16ELi2ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEngEv.exit36.i</controlInputObjs>
+    <controlInputObjs>block_108</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="109" name="_ln135" lineNumber="135" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic" opcode="ret" nodeLabel="4.0" m_display="0" m_topoIndex="84" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="src/cordic.cpp" linenumber="135" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="src/cordic.cpp">
+      <validLinenumbers>135</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="421" pipe_depth="2" RegionName="loop">
+    <basic_blocks id="46" name="_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i" type="BlockType">
+      <controlInputObjs>_ifconv</controlInputObjs>
+      <controlInputObjs>block_88</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit</controlOutputObjs>
+      <controlOutputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="m" lineNumber="70" originalName="m" fileName="src/cordic.cpp" fileDirectory=".." coreId="6" contextFuncName="cordic_calculate" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <controlInputObjs>block_88</controlInputObjs>
+        <controlInputObjs>_ifconv</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="add_ln70" lineNumber="70" fileName="src/cordic.cpp" fileDirectory=".." rtlName="add_ln70_fu_318_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="cordic_calculate" bitwidth="5" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.78" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="icmp_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." rtlName="icmp_ln66_fu_324_p2" opType="icmp" coreId="49" contextFuncName="cordic_calculate" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="1.36" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="br_ln66" lineNumber="66" fileName="src/cordic.cpp" fileDirectory=".." coreId="1701998624" contextFuncName="cordic_calculate" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="66" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i.split</controlInputObjs>
+        <controlInputObjs>_Z16cordic_calculate8ap_fixedILi17ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EE7ap_uintILi2EERS_ILi16ELi2ELS0_5ELS1_3ELi0EES6_RS4_.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="src/cordic.cpp">
+        <validLinenumbers>70</validLinenumbers>
+        <validLinenumbers>66</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="64" name="_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i.split" type="BlockType">
+      <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i95.i</controlOutputObjs>
+      <controlOutputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i223.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="alpha_V_3_load" lineNumber="1496" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="1701080941" contextFuncName="operator_ge_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1496" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="p_load9" lineNumber="1333" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="1031301478" contextFuncName="operator_rs" bitwidth="16" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>ashr</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="p_load6" lineNumber="1333" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="1914708526" contextFuncName="operator_rs" bitwidth="16" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>ashr</dataOutputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="m_cast" lineNumber="70" fileName="src/cordic.cpp" fileDirectory=".." rtlName="m_cast_fu_336_p1" coreId="1734439795" contextFuncName="cordic_calculate" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="tmp" lineNumber="1496" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="tmp_fu_371_p3" coreId="1869833586" contextFuncName="operator_ge_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" nodeLabel="2.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1496" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;=&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="trunc_ln1333" lineNumber="1333" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln1333_fu_341_p1" coreId="49" contextFuncName="operator_rs" bitwidth="4" opcode="trunc" nodeLabel="1.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="zext_ln1333" lineNumber="1333" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="zext_ln1333_fu_345_p1" coreId="2675861592" contextFuncName="operator_rs" bitwidth="16" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>ashr</dataOutputObjs>
+        <dataOutputObjs>ashr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="r" lineNumber="1333" originalName="r" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="r_fu_349_p2" coreName="Shifter" implIndex="auto_pipe" control="auto" opType="ashr" coreId="75" contextFuncName="operator_rs" bitwidth="16" opcode="ashr" nodeLabel="1.0" m_display="0" m_delay="3.98" m_topoIndex="36" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="zext_ln70" lineNumber="70" fileName="src/cordic.cpp" fileDirectory=".." rtlName="zext_ln70_fu_355_p1" coreId="13" contextFuncName="cordic_calculate" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="xi_V_addr_2" lineNumber="70" fileName="src/cordic.cpp" fileDirectory=".." coreId="2675864656" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="r_1" lineNumber="1333" originalName="r" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="r_1_fu_362_p2" coreName="Shifter" implIndex="auto_pipe" control="auto" opType="ashr" coreId="75" contextFuncName="operator_rs" bitwidth="16" opcode="ashr" nodeLabel="1.0" m_display="0" m_delay="3.98" m_topoIndex="39" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1333" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator&amp;gt;&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="yi_V_addr_2" lineNumber="71" fileName="src/cordic.cpp" fileDirectory=".." coreId="3892314256" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="71" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="myarctan_addr" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="myarctan_load" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="14" opcode="load" nodeLabel="1.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="42" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="zext_ln68" lineNumber="68" fileName="src/cordic.cpp" fileDirectory=".." rtlName="zext_ln68_fu_379_p1" coreId="2675870409" contextFuncName="cordic_calculate" bitwidth="17" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="68" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="br_ln68" lineNumber="68" fileName="src/cordic.cpp" fileDirectory=".." coreId="11" contextFuncName="cordic_calculate" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="68" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <controlInputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i223.i</controlInputObjs>
+        <controlInputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i95.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="src/cordic.cpp">
+        <validLinenumbers>70</validLinenumbers>
+        <validLinenumbers>71</validLinenumbers>
+        <validLinenumbers>68</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+        <validLinenumbers>1496</validLinenumbers>
+        <validLinenumbers>1333</validLinenumbers>
+        <validLinenumbers>703</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="74" name="_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i223.i" type="BlockType">
+      <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_88</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="sub_ln703_2" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="sub_ln703_2_fu_383_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="sub" nodeLabel="2.0" m_display="0" m_delay="2.07" m_topoIndex="50" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>ashr</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="xi_V_addr_2_write_ln70" lineNumber="70" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="2.32" m_topoIndex="51" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="70" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="add_ln703" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="add_ln703_fu_388_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="add" nodeLabel="2.0" m_display="0" m_delay="2.07" m_topoIndex="52" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>ashr</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="yi_V_addr_2_write_ln71" lineNumber="71" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="2.32" m_topoIndex="53" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="71" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="sub_ln703_3" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="sub_ln703_3_fu_393_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="sub" nodeLabel="2.0" m_display="0" m_delay="2.1" m_topoIndex="54" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="70" name="empty_6_write_ln73" lineNumber="73" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="55" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="73" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="empty_write_ln73" lineNumber="73" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="56" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="73" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="alpha_V_3_write_ln73" lineNumber="73" fileName="src/cordic.cpp" fileDirectory=".." coreId="132" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="57" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="73" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="br_ln73" lineNumber="73" fileName="src/cordic.cpp" fileDirectory=".." coreId="0" contextFuncName="cordic_calculate" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="58" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="73" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <controlInputObjs>block_88</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="src/cordic.cpp">
+        <validLinenumbers>70</validLinenumbers>
+        <validLinenumbers>71</validLinenumbers>
+        <validLinenumbers>73</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+        <validLinenumbers>703</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="84" name="_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i95.i" type="BlockType">
+      <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_88</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="75" name="add_ln703_1" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="add_ln703_1_fu_414_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="add" nodeLabel="2.0" m_display="0" m_delay="2.07" m_topoIndex="59" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>ashr</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="76" name="xi_V_addr_2_write_ln76" lineNumber="76" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="2.32" m_topoIndex="60" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="76" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="sub_ln703_4" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="sub_ln703_4_fu_419_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" bitwidth="16" opcode="sub" nodeLabel="2.0" m_display="0" m_delay="2.07" m_topoIndex="61" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>ashr</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="78" name="yi_V_addr_2_write_ln77" lineNumber="77" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" nodeLabel="2.0" m_display="0" m_delay="2.32" m_topoIndex="62" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="77" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="79" name="add_ln703_2" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="add_ln703_2_fu_424_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="operator_assign_18_4_true_AP_TRN_AP_WRAP_0" bitwidth="17" opcode="add" nodeLabel="2.0" m_display="0" m_delay="2.1" m_topoIndex="63" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="80" name="empty_6_write_ln703" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="0" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="64" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="empty_write_ln703" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="49" contextFuncName="operator_assign_17_3_true_AP_TRN_AP_WRAP_0" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="65" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;17, 3, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="82" name="alpha_V_3_write_ln703" lineNumber="703" fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="2675811888" contextFuncName="operator_assign_18_4_true_AP_TRN_AP_WRAP_0" opcode="store" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="66" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h" linenumber="703" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="operator=&amp;lt;18, 4, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="83" name="br_ln0" coreId="2675812944" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="67" m_clusterGroupNumber="-1">
+        <controlInputObjs>block_88</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="src/cordic.cpp">
+        <validLinenumbers>76</validLinenumbers>
+        <validLinenumbers>77</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h">
+        <validLinenumbers>703</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="88" name="block_88" type="BlockType">
+      <controlInputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i223.i</controlInputObjs>
+      <controlInputObjs>_ZN13ap_fixed_baseILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi16ELi2ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i95.i</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="flag_delay_a_V_addr_2" lineNumber="80" fileName="src/cordic.cpp" fileDirectory=".." coreId="2675814296" contextFuncName="cordic_calculate" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="80" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="86" name="flag_delay_a_V_addr_2_write_ln80" lineNumber="80" fileName="src/cordic.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="82" contextFuncName="cordic_calculate" opcode="store" nodeLabel="1.0" m_display="0" m_delay="2.32" m_topoIndex="44" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="src/cordic.cpp" linenumber="80" fileDirectory="/home/pengxuanyao/workspace/cordic" functionName="cordic_calculate"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="87" name="br_ln0" coreId="110" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+        <controlInputObjs>_ZgeILi17ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="src/cordic.cpp">
+        <validLinenumbers>80</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <regnodes realName="yi_V_addr_1_reg_525">
+    <nodeIds>89</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln66_reg_479">
+    <nodeIds>43</nodeIds>
+  </regnodes>
+  <regnodes realName="p_load6_reg_489">
+    <nodeIds>49</nodeIds>
+  </regnodes>
+  <regnodes realName="xi_V_addr_2_reg_501">
+    <nodeIds>57</nodeIds>
+  </regnodes>
+  <regnodes realName="yi_V_addr_2_reg_512">
+    <nodeIds>59</nodeIds>
+  </regnodes>
+  <regnodes realName="empty_6_reg_461">
+    <nodeIds>8</nodeIds>
+  </regnodes>
+  <regnodes realName="flag_V_reg_469">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="r_1_reg_506">
+    <nodeIds>58</nodeIds>
+  </regnodes>
+  <regnodes realName="myarctan_addr_reg_517">
+    <nodeIds>60</nodeIds>
+  </regnodes>
+  <regnodes realName="add_ln70_reg_474">
+    <nodeIds>41</nodeIds>
+  </regnodes>
+  <regnodes realName="flag_delay_a_V_addr_1_reg_535">
+    <nodeIds>93</nodeIds>
+  </regnodes>
+  <regnodes realName="r_reg_495">
+    <nodeIds>55</nodeIds>
+  </regnodes>
+  <regnodes realName="alpha_V_3_reg_445">
+    <nodeIds>6</nodeIds>
+  </regnodes>
+  <regnodes realName="empty_reg_453">
+    <nodeIds>7</nodeIds>
+  </regnodes>
+  <regnodes realName="p_load9_reg_483">
+    <nodeIds>48</nodeIds>
+  </regnodes>
+  <regnodes realName="xi_V_addr_1_reg_530">
+    <nodeIds>91</nodeIds>
+  </regnodes>
+  <regnodes realName="m_reg_222">
+    <nodeIds>40</nodeIds>
+  </regnodes>
+  <expressionNodes realName="m_phi_fu_226">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln70_fu_318">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flag_delay_a_V_addr_gep_fu_150">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln1494_1_fu_280">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln68_fu_379">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln703_2_fu_383">
+    <nodeIds>65</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="yi_V_addr_2_gep_fu_170">
+    <nodeIds>59</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln1333_fu_345">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="m_cast_fu_336">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln70_fu_355">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1494_fu_240">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_fu_80">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_371">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln703_fu_388">
+    <nodeIds>67</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="alpha_V_3_fu_76">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xi_V_addr_gep_fu_120">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln66_fu_324">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="r_fu_349">
+    <nodeIds>55</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xi_V_addr_2_gep_fu_164">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln703_1_fu_414">
+    <nodeIds>75</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="grp_fu_233">
+    <nodeIds>98</nodeIds>
+    <nodeIds>102</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flag_delay_a_V_addr_1_gep_fu_214">
+    <nodeIds>93</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="myarctan_addr_gep_fu_176">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="alpha_V_5_fu_272">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln1494_fu_288">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xi_V_alloca_fu_88">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_6_fu_84">
+    <nodeIds>8</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="alpha_V_fu_246">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flag_V_fu_294">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flag_delay_a_V_addr_2_gep_fu_189">
+    <nodeIds>85</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="yi_V_addr_gep_fu_135">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="alpha_V_4_fu_258">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1495_fu_252">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln703_4_fu_419">
+    <nodeIds>77</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xi_V_addr_1_gep_fu_205">
+    <nodeIds>91</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln24_fu_264">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flag_delay_a_V_alloca_fu_96">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="yi_V_alloca_fu_92">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="r_1_fu_362">
+    <nodeIds>58</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="yi_V_addr_1_gep_fu_196">
+    <nodeIds>89</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln703_2_fu_424">
+    <nodeIds>79</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln1333_fu_341">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln703_3_fu_393">
+    <nodeIds>69</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="full_alpha_read_read_fu_100">
+    <nodeIds>16</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_load6_load_fu_333">
+    <nodeIds>49</nodeIds>
+  </ioNodes>
+  <ioNodes realName="alpha_V_3_load_load_fu_368">
+    <nodeIds>47</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln110_write_fu_106">
+    <nodeIds>95</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln66_store_fu_308">
+    <nodeIds>36</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_write_fu_113">
+    <nodeIds>99</nodeIds>
+    <nodeIds>103</nodeIds>
+    <nodeIds>106</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln73_store_fu_404">
+    <nodeIds>71</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln703_store_fu_435">
+    <nodeIds>81</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln73_store_fu_409">
+    <nodeIds>72</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_load9_load_fu_330">
+    <nodeIds>48</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln703_store_fu_430">
+    <nodeIds>80</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln66_store_fu_313">
+    <nodeIds>37</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln66_store_fu_303">
+    <nodeIds>35</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln703_store_fu_440">
+    <nodeIds>82</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln73_store_fu_399">
+    <nodeIds>70</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="flag_delay_a_V">
+    <nodeIds>34</nodeIds>
+    <nodeIds>86</nodeIds>
+    <nodeIds>94</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="myarctan">
+    <nodeIds>61</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="xi_V">
+    <nodeIds>30</nodeIds>
+    <nodeIds>66</nodeIds>
+    <nodeIds>76</nodeIds>
+    <nodeIds>92</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="yi_V">
+    <nodeIds>32</nodeIds>
+    <nodeIds>68</nodeIds>
+    <nodeIds>78</nodeIds>
+    <nodeIds>90</nodeIds>
+  </memoryPorts>
+  <ioPorts name="cos_out">
+    <contents name="write">
+      <nodeIds>103</nodeIds>
+      <nodeIds>99</nodeIds>
+      <nodeIds>106</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="full_alpha">
+    <contents name="read">
+      <nodeIds>16</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="sin_out">
+    <contents name="write">
+      <nodeIds>95</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="2" latency="2"/>
+      <operations id="85" stage="1" latency="1"/>
+      <operations id="86" stage="1" latency="1"/>
+      <operations id="87" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="2"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="65" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="1"/>
+      <operations id="68" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="70" stage="1" latency="1"/>
+      <operations id="71" stage="1" latency="1"/>
+      <operations id="72" stage="1" latency="1"/>
+      <operations id="73" stage="1" latency="1"/>
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="76" stage="1" latency="1"/>
+      <operations id="77" stage="1" latency="1"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="79" stage="1" latency="1"/>
+      <operations id="80" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="82" stage="1" latency="1"/>
+      <operations id="83" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="89" stage="1" latency="1"/>
+      <operations id="90" stage="2" latency="2"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="92" stage="2" latency="2"/>
+      <operations id="93" stage="1" latency="1"/>
+      <operations id="94" stage="2" latency="2"/>
+    </states>
+    <states id="5">
+      <operations id="90" stage="1" latency="2"/>
+      <operations id="92" stage="1" latency="2"/>
+      <operations id="94" stage="1" latency="2"/>
+      <operations id="95" stage="1" latency="1"/>
+      <operations id="96" stage="1" latency="1"/>
+      <operations id="98" stage="1" latency="1"/>
+      <operations id="99" stage="1" latency="1"/>
+      <operations id="100" stage="1" latency="1"/>
+      <operations id="102" stage="1" latency="1"/>
+      <operations id="103" stage="1" latency="1"/>
+      <operations id="104" stage="1" latency="1"/>
+      <operations id="106" stage="1" latency="1"/>
+      <operations id="107" stage="1" latency="1"/>
+      <operations id="109" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="cordic" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="19" mMaxLatency="19">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>39</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="loop" mII="1" mDepth="2" mMinTripCount="16" mMaxTripCount="16" mMinLatency="16" mMaxLatency="16" mType="1">
+      <basicBlocks>46</basicBlocks>
+      <basicBlocks>64</basicBlocks>
+      <basicBlocks>74</basicBlocks>
+      <basicBlocks>84</basicBlocks>
+      <basicBlocks>88</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1" mMaxLatency="1">
+      <basicBlocks>97</basicBlocks>
+      <basicBlocks>101</basicBlocks>
+      <basicBlocks>105</basicBlocks>
+      <basicBlocks>108</basicBlocks>
+      <basicBlocks>110</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

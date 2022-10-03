@@ -1,0 +1,45 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_cordic_top glbl -prj cordic.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_18 -L floating_point_v7_1_11 --lib ieee_proposed=./ieee_proposed -s cordic -debug wave 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/cordic.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_cordic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/cordic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/cordic_cordic_calculate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_cordic_calculate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/sample_manager.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_process_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/sample_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/dump_file_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/csv_file_dump.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_fifo_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [df_fifo_interface.sv:4]
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [df_process_interface.sv:4]
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_process_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_process_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/nodf_module_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [nodf_module_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_fifo_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/df_fifo_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/nodf_module_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [/home/pengxuanyao/workspace/cordic/cordic/s_pipeline/sim/verilog/nodf_module_interface.sv:4]
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.cordic_cordic_calculate
+Compiling module xil_defaultlib.cordic
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_cordic_top
+Compiling module work.glbl
+Built simulation snapshot cordic
